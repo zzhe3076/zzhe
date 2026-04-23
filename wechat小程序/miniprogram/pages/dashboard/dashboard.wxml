@@ -1,0 +1,58 @@
+<view class="container">
+  <view class="header">
+    <image class="avatar" src="{{student.avatarUrl || '/images/default-avatar.png'}}"></image>
+    <text class="name">{{student.name}}</text>
+    <text class="student-id">学号: {{student.student_id}}</text>
+    <view class="status-badge status-{{student.status}}">
+      {{student.status_display}}
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="card-title">报到状态</view>
+    <view class="status-info">
+      <view class="status-item">
+        <text class="status-label">当前状态</text>
+        <text class="status-value">{{student.status_display}}</text>
+      </view>
+      <view class="status-item" wx:if="{{student.check_in_time}}">
+        <text class="status-label">报到时间</text>
+        <text class="status-value">{{student.check_in_time}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="card qr-card" wx:if="{{student.status !== 'checked_in'}}">
+    <view class="card-title">报到二维码</view>
+    <view class="qr-container">
+      <view wx:if="{{!dynamicCode}}" class="qr-placeholder">
+        <button class="btn-generate" bindtap="generateCode">获取报到码</button>
+      </view>
+      <view wx:else class="qr-display">
+        <view class="qr-code">{{dynamicCode}}</view>
+        <text class="qr-tip">展示给工作人员扫描</text>
+        <text class="qr-expire">有效期至: {{expiresTime}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="card-title">快捷操作</view>
+    <view class="quick-actions">
+      <view class="action-item" bindtap="goToPayment">
+        <image src="/images/pay.png" class="action-icon"></image>
+        <text>缴费中心</text>
+      </view>
+      <view class="action-item" bindtap="goToDormitory">
+        <image src="/images/home.png" class="action-icon"></image>
+        <text>宿舍查询</text>
+      </view>
+      <view class="action-item" bindtap="goToAnnouncement">
+        <image src="/images/notice.png" class="action-icon"></image>
+        <text>公告通知</text>
+      </view>
+    </view>
+  </view>
+
+  <button class="btn-logout" bindtap="handleLogout">退出登录</button>
+</view>

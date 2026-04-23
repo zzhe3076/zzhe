@@ -1,0 +1,113 @@
+.container {
+  padding: 20px;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.scan-area {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.btn-scan {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 12px;
+}
+
+.btn-scan::after {
+  border: none;
+}
+
+.scan-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.btn-scan text {
+  font-size: 14px;
+  color: #666;
+}
+
+.tip {
+  text-align: center;
+  color: #999;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.qr-display {
+  text-align: center;
+  padding: 30px;
+}
+
+.qr-code {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0066cc;
+  padding: 20px;
+  background: #f5f7fa;
+  border-radius: 8px;
+  word-break: break-all;
+  letter-spacing: 2px;
+}
+
+.qr-tip {
+  display: block;
+  margin-top: 15px;
+  color: #666;
+  font-size: 14px;
+}
+
+.qr-expire {
+  display: block;
+  margin-top: 5px;
+  color: #999;
+  font-size: 12px;
+}
+
+.qr-placeholder {
+  text-align: center;
+  padding: 30px;
+}
+
+.btn-generate {
+  background: linear-gradient(135deg, #0066cc, #00a0e9);
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+}
+
+.btn-generate::after {
+  border: none;
+}
+
+.result {
+  text-align: center;
+  padding: 20px;
+}
+
+.result.success {
+  color: #28a745;
+  font-size: 18px;
+}

@@ -1,0 +1,37 @@
+<view class="container">
+  <view class="header">
+    <text class="title">扫码报到</text>
+  </view>
+
+  <view class="card">
+    <view class="card-title">现场扫码</view>
+    <view class="scan-area">
+      <button class="btn-scan" bindtap="handleScan">
+        <image src="/images/scan.png" class="scan-icon"></image>
+        <text>扫描二维码</text>
+      </button>
+    </view>
+    <view class="tip">
+      <text>请让工作人员扫描您的报到码完成报到</text>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="card-title">我的报到码</view>
+    <view class="qr-display" wx:if="{{dynamicCode}}">
+      <view class="qr-code">{{dynamicCode}}</view>
+      <text class="qr-tip">展示给工作人员</text>
+      <text class="qr-expire">有效期至: {{expiresTime}}</text>
+    </view>
+    <view class="qr-placeholder" wx:else>
+      <button class="btn-generate" bindtap="generateCode">获取报到码</button>
+    </view>
+  </view>
+
+  <view class="card" wx:if="{{checkinResult}}">
+    <view class="card-title">报到结果</view>
+    <view class="result success">
+      <text>报到成功！</text>
+    </view>
+  </view>
+</view>

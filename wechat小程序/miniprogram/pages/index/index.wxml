@@ -1,0 +1,75 @@
+<view class="container">
+  <view class="header">
+    <image class="banner" src="/images/banner.png" mode="aspectFill"></image>
+    <view class="welcome">
+      <text class="title">智慧迎新</text>
+      <text class="subtitle">从此刻开始</text>
+    </view>
+  </view>
+
+  <view class="stats">
+    <view class="stat-item">
+      <text class="stat-num">{{stats.checked_in || 0}}</text>
+      <text class="stat-label">已报到</text>
+    </view>
+    <view class="stat-item">
+      <text class="stat-num">{{stats.pending || 0}}</text>
+      <text class="stat-label">待报到</text>
+    </view>
+    <view class="stat-item">
+      <text class="stat-num">{{stats.total || 0}}</text>
+      <text class="stat-label">总人数</text>
+    </view>
+    <view class="stat-item">
+      <text class="stat-num">{{stats.check_in_rate || 0}}%</text>
+      <text class="stat-label">报到率</text>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="section-title">
+      <text>最新公告</text>
+      <navigator url="/pages/announcement/announcement" class="more">更多></navigator>
+    </view>
+    <view class="announcement-list">
+      <block wx:for="{{announcements}}" wx:key="id">
+        <navigator url="/pages/announcement/detail?id={{item.id}}" class="announcement-item">
+          <view class="announcement-title">{{item.title}}</view>
+          <view class="announcement-date">{{item.published_at}}</view>
+        </navigator>
+      </block>
+      <view wx:if="{{announcements.length === 0}}" class="empty">暂无公告</view>
+    </view>
+  </view>
+
+  <view class="section">
+    <view class="section-title">
+      <text>常见问题</text>
+      <navigator url="/pages/faq/faq" class="more">更多></navigator>
+    </view>
+    <view class="faq-list">
+      <block wx:for="{{faqs}}" wx:key="id">
+        <view class="faq-item">
+          <view class="faq-question">{{item.question}}</view>
+          <view class="faq-answer">{{item.answer}}</view>
+        </view>
+      </block>
+      <view wx:if="{{faqs.length === 0}}" class="empty">暂无问题</view>
+    </view>
+  </view>
+
+  <view class="quick-actions">
+    <button class="action-btn" bindtap="goToCheckin">
+      <image src="/images/qrcode.png" class="action-icon"></image>
+      <text>扫码报到</text>
+    </button>
+    <button class="action-btn" bindtap="goToPayment">
+      <image src="/images/pay.png" class="action-icon"></image>
+      <text>在线缴费</text>
+    </button>
+    <button class="action-btn" bindtap="goToDormitory">
+      <image src="/images/home.png" class="action-icon"></image>
+      <text>宿舍查询</text>
+    </button>
+  </view>
+</view>

@@ -1,0 +1,36 @@
+<view class="container">
+  <view class="card">
+    <view class="card-title">缴费列表</view>
+    <view class="payment-list">
+      <block wx:for="{{payments}}" wx:key="id">
+        <view class="payment-item">
+          <view class="payment-info">
+            <text class="payment-type">{{item.payment_type}}</text>
+            <text class="payment-amount">¥{{item.amount}}</text>
+          </view>
+          <view class="payment-status status-{{item.status}}">
+            {{item.status_display}}
+          </view>
+          <button wx:if="{{item.status === 'pending'}}" 
+                  class="btn-pay" 
+                  bindtap="handlePay" 
+                  data-id="{{item.id}}">
+            立即支付
+          </button>
+        </view>
+      </block>
+      <view wx:if="{{payments.length === 0}}" class="empty">暂无缴费记录</view>
+    </view>
+  </view>
+
+  <view class="summary">
+    <view class="summary-item">
+      <text class="summary-label">待缴总额</text>
+      <text class="summary-value pending">¥{{pendingTotal}}</text>
+    </view>
+    <view class="summary-item">
+      <text class="summary-label">已缴总额</text>
+      <text class="summary-value paid">¥{{paidTotal}}</text>
+    </view>
+  </view>
+</view>

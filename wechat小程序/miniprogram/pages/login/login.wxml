@@ -1,0 +1,23 @@
+<view class="container">
+  <view class="header">
+    <text class="title">学生登录</text>
+  </view>
+
+  <view class="form">
+    <view class="form-group">
+      <text class="label">学号</text>
+      <input class="input" placeholder="请输入学号" bindinput="onStudentIdInput" />
+    </view>
+    <view class="form-group">
+      <text class="label">密码</text>
+      <input class="input" password placeholder="请输入密码" bindinput="onPasswordInput" />
+    </view>
+    <button class="btn-primary" bindtap="handleLogin">登录</button>
+    <button class="btn-wechat" bindtap="handleWechatLogin">
+      <text>微信一键登录</text>
+    </button>
+    <navigator url="/pages/register/register" class="register-link">
+      <text>没有账号？立即注册</text>
+    </navigator>
+  </view>
+</view>

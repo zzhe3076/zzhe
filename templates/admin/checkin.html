@@ -1,0 +1,199 @@
+{% extends "base.html" %}
+
+{% block title %}扫码报到 - 管理后台{% endblock %}
+
+{% block nav_items %}
+<li class="nav-item">
+    <a class="nav-link" href="/">返回首页</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/admin/">管理后台</a>
+</li>
+{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-12">
+        <h4><i class="bi bi-qr-code-scan"></i> 扫码报到</h4>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">报到信息录入</h5>
+            </div>
+            <div class="card-body">
+                <form id="checkinForm">
+                    <div class="mb-3">
+                        <label for="studentId" class="form-label">学号 *</label>
+                        <input type="text" class="form-control" id="studentId" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="dynamicCode" class="form-label">动态报到码（可选，用于学生已生成二维码时）</label>
+                        <input type="text" class="form-control" id="dynamicCode">
+                    </div>
+                    <div class="mb-3">
+                        <label for="location" class="form-label">报到地点</label>
+                        <select class="form-select" id="location">
+                            <option value="体育馆">体育馆</option>
+                            <option value="教学楼A">教学楼A</option>
+                            <option value="教学楼B">教学楼B</option>
+                            <option value="线上">线上</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="operator" class="form-label">操作人</label>
+                        <input type="text" class="form-control" id="operator" value="管理员" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="remarks" class="form-label">备注</label>
+                        <textarea class="form-control" id="remarks" rows="2"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">
+                        <i class="bi bi-check-circle"></i> 确认报到
+                    </button>
+                </form>
+                <div id="resultMessage" class="mt-3" style="display: none;"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">报到说明</h5>
+            </div>
+            <div class="card-body">
+                <h6>报到流程：</h6>
+                <ol>
+                    <li>输入学生学号</li>
+                    <li>（可选）输入学生提供的动态报到码</li>
+                    <li>确认信息无误后点击"确认报到"</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0">今日报到统计</h5>
+            </div>
+            <div class="card-body">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <h3 class="text-success" id="todayChecked">{{ today_checked }}</h3>
+                        <p class="text-muted">今日已报到</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="text-warning" id="todayPending">{{ stats.pending|default:0 }}</h3>
+                        <p class="text-muted">待报到</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3 class="text-primary" id="todayRate">{{ today_rate|floatformat:1 }}%</h3>
+                        <p class="text-muted">报到率</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+function getCookie(name) {
+    let cookieValue = null;
+    if (document.cookie && document.cookie !== '') {
+        const cookies = document.cookie.split(';');
+        for (let i = 0; i < cookies.length; i++) {
+            const cookie = cookies[i].trim();
+            if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                break;
+            }
+        }
+    }
+    return cookieValue;
+}
+
+const API_BASE = '/api';
+const csrftoken = getCookie('csrftoken');
+
+document.getElementById('checkinForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    const studentId = document.getElementById('studentId').value;
+    const dynamicCode = document.getElementById('dynamicCode').value;
+    const location = document.getElementById('location').value;
+    const operator = document.getElementById('operator').value;
+    const remarks = document.getElementById('remarks').value;
+    
+    try {
+        const response = await fetch(`${API_BASE}/check-ins/verify_and_checkin/`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRFToken': csrftoken
+            },
+            body: JSON.stringify({
+                student_id: studentId,
+                dynamic_code: dynamicCode,
+                location: location,
+                operator: operator,
+                check_in_method: 'manual',
+                remarks: remarks
+            })
+        });
+        
+        const data = await response.json();
+        const resultDiv = document.getElementById('resultMessage');
+        
+        if (response.ok) {
+            resultDiv.className = 'alert alert-success';
+            resultDiv.innerHTML = `
+                <h5><i class="bi bi-check-circle"></i> 报到成功！</h5>
+                <p>学号: ${data.student.student_id}</p>
+                <p>姓名: ${data.student.name}</p>
+                <p>专业: ${data.student.major_name}</p>
+            `;
+            document.getElementById('checkinForm').reset();
+        } else {
+            resultDiv.className = 'alert alert-danger';
+            resultDiv.innerHTML = `<i class="bi bi-x-circle"></i> ${data.error || '报到失败'}`;
+        }
+        
+        resultDiv.style.display = 'block';
+    } catch (error) {
+        console.error('Check-in error:', error);
+        alert('报到失败，请稍后重试');
+    }
+});
+
+async function loadTodayStats() {
+    try {
+        const response = await fetch(`${API_BASE}/dashboard/stats/`);
+        const data = await response.json();
+        
+        const today = new Date().toISOString().split('T')[0];
+        
+        const checkinRes = await fetch(`${API_BASE}/check-ins/?date_from=${today}`);
+        const checkinData = await checkinRes.json();
+        const todayChecked = checkinData.count || 0;
+        
+        document.getElementById('todayChecked').textContent = todayChecked;
+        document.getElementById('todayPending').textContent = data.student_stats.pending;
+        
+        const rate = data.student_stats.total > 0 ? (todayChecked / data.student_stats.total * 100).toFixed(1) : 0;
+        document.getElementById('todayRate').textContent = rate + '%';
+    } catch (error) {
+        console.error('Load stats error:', error);
+    }
+}
+
+loadTodayStats();
+</script>
+{% endblock %}

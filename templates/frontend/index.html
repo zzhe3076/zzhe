@@ -1,0 +1,173 @@
+{% extends "base.html" %}
+
+{% block title %}数据大屏 - 管理后台{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-12">
+        <h4><i class="bi bi-speedometer2"></i> 报到数据实时监控</h4>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <div class="col-md-3">
+        <div class="card stat-card success h-100">
+            <div class="card-body">
+                <h6 class="text-muted">已报到人数</h6>
+                <h2>{{ stats.checked_in|default:0 }}</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card stat-card warning h-100">
+            <div class="card-body">
+                <h6 class="text-muted">待报到人数</h6>
+                <h2>{{ stats.pending|default:0 }}</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card stat-card h-100">
+            <div class="card-body">
+                <h6 class="text-muted">总人数</h6>
+                <h2>{{ stats.total|default:0 }}</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card stat-card success h-100">
+            <div class="card-body">
+                <h6 class="text-muted">报到率</h6>
+                <h2>{{ stats.check_in_rate|default:"0"|floatformat:1 }}%</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <div class="col-md-6">
+        <div class="card h-100">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="bi bi-bar-chart"></i> 各学院报到情况</h5>
+            </div>
+            <div class="card-body">
+                <table class="table table-sm">
+                    <thead>
+                        <tr>
+                            <th>学院</th>
+                            <th>总人数</th>
+                            <th>已报到</th>
+                            <th>报到率</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for college in college_stats %}
+                        <tr>
+                            <td>{{ college.major__college__name|default:"未知" }}</td>
+                            <td>{{ college.total }}</td>
+                            <td>{{ college.checked_in }}</td>
+                            <td>{% if college.total > 0 %}{% widthratio college.checked_in college.total 100 %}%{% else %}0%{% endif %}</td>
+                        </tr>
+                        {% empty %}
+                        <tr><td colspan="4" class="text-center text-muted">暂无数据</td></tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card h-100">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="bi bi-geo-alt"></i> 生源地统计 (Top 10)</h5>
+            </div>
+            <div class="card-body">
+                <table class="table table-sm">
+                    <thead>
+                        <tr>
+                            <th>省份</th>
+                            <th>总人数</th>
+                            <th>已报到</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for province in province_stats %}
+                        <tr>
+                            <td>{{ province.origin_province }}</td>
+                            <td>{{ province.total }}</td>
+                            <td>{{ province.checked_in }}</td>
+                        </tr>
+                        {% empty %}
+                        <tr><td colspan="3" class="text-center text-muted">暂无数据</td></tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0"><i class="bi bi-clock-history"></i> 近期报到记录</h5>
+            </div>
+            <div class="card-body">
+                <table class="table table-sm">
+                    <thead>
+                        <tr>
+                            <th>学号</th>
+                            <th>姓名</th>
+                            <th>专业</th>
+                            <th>报到方式</th>
+                            <th>报到时间</th>
+                            <th>操作人</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for checkin in recent_check_ins %}
+                        <tr>
+                            <td>{{ checkin.student.student_id }}</td>
+                            <td>{{ checkin.student.name }}</td>
+                            <td>{{ checkin.student.major.name|default:"-" }}</td>
+                            <td>{{ checkin.get_check_in_method_display }}</td>
+                            <td>{{ checkin.created_at|date:"Y-m-d H:i" }}</td>
+                            <td>{{ checkin.operator }}</td>
+                        </tr>
+                        {% empty %}
+                        <tr><td colspan="6" class="text-center text-muted">暂无报到记录</td></tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <h5 class="mb-3">快捷操作</h5>
+    </div>
+    <div class="col-md-3">
+        <a href="/checkin/" class="btn btn-outline-primary w-100 mb-2">
+            <i class="bi bi-qr-code-scan"></i> 扫码报到
+        </a>
+    </div>
+    <div class="col-md-3">
+        <a href="/students/" class="btn btn-outline-success w-100 mb-2">
+            <i class="bi bi-people"></i> 学生管理
+        </a>
+    </div>
+    <div class="col-md-3">
+        <a href="/admin/welcome_app/student/add/" class="btn btn-outline-info w-100 mb-2">
+            <i class="bi bi-person-plus"></i> 添加学生
+        </a>
+    </div>
+    <div class="col-md-3">
+        <a href="/admin/welcome_app/announcement/add/" class="btn btn-outline-warning w-100 mb-2">
+            <i class="bi bi-megaphone"></i> 发布公告
+        </a>
+    </div>
+</div>
+{% endblock %}
