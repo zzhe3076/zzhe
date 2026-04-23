@@ -1,0 +1,173 @@
+.container {
+  padding: 20px;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+
+.header {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.name {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.student-id {
+  display: block;
+  font-size: 14px;
+  color: #999;
+  margin-top: 5px;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 15px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.status-pending {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.status-checked_in {
+  background: #d4edda;
+  color: #155724;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.status-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.status-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.status-label {
+  color: #999;
+  font-size: 14px;
+}
+
+.status-value {
+  color: #333;
+  font-size: 14px;
+}
+
+.qr-card {
+  text-align: center;
+}
+
+.qr-container {
+  padding: 20px;
+}
+
+.qr-placeholder {
+  padding: 40px 0;
+}
+
+.qr-display {
+  padding: 20px;
+}
+
+.qr-code {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0066cc;
+  padding: 20px;
+  background: #f5f7fa;
+  border-radius: 8px;
+  letter-spacing: 2px;
+}
+
+.qr-tip {
+  display: block;
+  margin-top: 15px;
+  color: #666;
+  font-size: 14px;
+}
+
+.qr-expire {
+  display: block;
+  margin-top: 5px;
+  color: #999;
+  font-size: 12px;
+}
+
+.btn-generate {
+  background: linear-gradient(135deg, #0066cc, #00a0e9);
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+}
+
+.btn-generate::after {
+  border: none;
+}
+
+.quick-actions {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.action-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.action-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 5px;
+}
+
+.action-item text {
+  font-size: 12px;
+  color: #666;
+}
+
+.btn-logout {
+  width: 100%;
+  background: #fff;
+  color: #999;
+  border: none;
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.btn-logout::after {
+  border: none;
+}

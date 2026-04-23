@@ -1,0 +1,76 @@
+.container {
+  padding: 20px;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.info-item:last-child {
+  border-bottom: none;
+}
+
+.label {
+  color: #999;
+  font-size: 14px;
+}
+
+.value {
+  color: #333;
+  font-size: 14px;
+}
+
+.value.price {
+  color: #ff6b6b;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.empty-card {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.empty-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.empty-text {
+  display: block;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.empty-tip {
+  display: block;
+  font-size: 14px;
+  color: #999;
+}

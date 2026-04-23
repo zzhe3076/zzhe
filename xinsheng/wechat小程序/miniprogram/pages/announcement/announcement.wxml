@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="list">
+    <block wx:for="{{announcements}}" wx:key="id">
+      <navigator url="/pages/announcement/detail?id={{item.id}}" class="item">
+        <view class="item-title">{{item.title}}</view>
+        <view class="item-date">{{item.published_at}}</view>
+      </navigator>
+    </block>
+    <view wx:if="{{announcements.length === 0}}" class="empty">暂无公告</view>
+  </view>
+</view>

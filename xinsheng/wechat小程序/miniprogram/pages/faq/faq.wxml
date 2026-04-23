@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="list">
+    <block wx:for="{{faqs}}" wx:key="id">
+      <view class="item">
+        <view class="item-question">{{item.question}}</view>
+        <view class="item-answer">{{item.answer}}</view>
+      </view>
+    </block>
+    <view wx:if="{{faqs.length === 0}}" class="empty">暂无问题</view>
+  </view>
+</view>

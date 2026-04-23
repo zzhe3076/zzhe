@@ -1,0 +1,37 @@
+<view class="container">
+  <view class="card" wx:if="{{hasDormitory}}">
+    <view class="card-title">宿舍信息</view>
+    <view class="info-list">
+      <view class="info-item">
+        <text class="label">楼栋</text>
+        <text class="value">{{dormitory.building}}</text>
+      </view>
+      <view class="info-item">
+        <text class="label">房间号</text>
+        <text class="value">{{dormitory.room_number}}</text>
+      </view>
+      <view class="info-item">
+        <text class="label">床位号</text>
+        <text class="value">{{dormitory.bed_number}}号床</text>
+      </view>
+      <view class="info-item">
+        <text class="label">房间类型</text>
+        <text class="value">{{dormitory.room_type}}</text>
+      </view>
+      <view class="info-item">
+        <text class="label">住宿费</text>
+        <text class="value price">¥{{dormitory.price}}</text>
+      </view>
+      <view class="info-item">
+        <text class="label">入住情况</text>
+        <text class="value">{{dormitory.current_occupancy}}/{{dormitory.capacity}}人</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="card empty-card" wx:else>
+    <image src="/images/empty.png" class="empty-icon"></image>
+    <text class="empty-text">暂未分配宿舍</text>
+    <text class="empty-tip">请等待辅导员分配宿舍后再查询</text>
+  </view>
+</view>

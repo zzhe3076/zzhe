@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/bind/bind",
+    "pages/dashboard/dashboard",
+    "pages/payment/payment",
+    "pages/dormitory/dormitory",
+    "pages/qrcode/qrcode",
+    "pages/announcement/announcement",
+    "pages/faq/faq"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0066cc",
+    "navigationBarTitleText": "智慧迎新",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#0066cc",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/dashboard/dashboard",
+        "text": "报到"
+      },
+      {
+        "pagePath": "pages/payment/payment",
+        "text": "缴费"
+      },
+      {
+        "pagePath": "pages/dormitory/dormitory",
+        "text": "宿舍"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

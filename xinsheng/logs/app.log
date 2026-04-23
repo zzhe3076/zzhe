@@ -1,0 +1,2519 @@
+INFO 2026-04-21 17:38:28,890 autoreload 33064 35128 Watching for file changes with StatReloader
+INFO 2026-04-21 17:38:44,105 autoreload 27672 4160 Watching for file changes with StatReloader
+INFO 2026-04-21 17:38:58,232 autoreload 19092 33224 Watching for file changes with StatReloader
+INFO 2026-04-21 17:44:12,493 log 33064 35432 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-21 17:44:12,624 log 33064 35432 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4094
+INFO 2026-04-21 17:44:12,833 log 33064 35432 "GET /static/admin/css/base.css HTTP/1.1" 200 23100
+INFO 2026-04-21 17:44:12,837 log 33064 35432 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-04-21 17:44:12,841 log 33064 35432 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-04-21 17:44:12,846 log 33064 35432 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16273
+INFO 2026-04-21 17:44:12,850 log 33064 35432 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-04-21 17:44:12,857 log 33064 35432 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2026-04-21 17:44:12,951 log 33064 33080 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 3538
+WARNING 2026-04-21 17:44:13,048 log 33064 33080 Not Found: /@vite/client
+WARNING 2026-04-21 17:44:13,049 log 33064 33080 "GET /@vite/client HTTP/1.1" 404 2708
+INFO 2026-04-21 17:44:29,886 log 33064 33080 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-04-21 17:44:29,904 log 33064 33080 "GET /admin/ HTTP/1.1" 200 6002
+INFO 2026-04-21 17:44:29,915 log 33064 33080 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2026-04-21 17:44:29,924 log 33064 35432 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 978
+INFO 2026-04-21 17:44:29,924 log 33064 33080 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 593
+WARNING 2026-04-21 17:44:29,956 log 33064 33080 Not Found: /@vite/client
+WARNING 2026-04-21 17:44:29,956 log 33064 33080 "GET /@vite/client HTTP/1.1" 404 2708
+INFO 2026-04-21 17:44:33,315 log 33064 33080 "GET /admin/auth/user/add/ HTTP/1.1" 200 11950
+INFO 2026-04-21 17:44:33,330 log 33064 33080 "GET /static/admin/css/forms.css HTTP/1.1" 200 8831
+INFO 2026-04-21 17:44:33,331 log 33064 34152 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2026-04-21 17:44:33,332 log 33064 27404 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2026-04-21 17:44:33,333 log 33064 33524 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2026-04-21 17:44:33,333 log 33064 33080 "GET /static/admin/css/unusable_password_field.css HTTP/1.1" 200 663
+INFO 2026-04-21 17:44:33,340 log 33064 35432 "GET /admin/jsi18n/ HTTP/1.1" 200 8869
+INFO 2026-04-21 17:44:33,340 log 33064 37648 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2026-04-21 17:44:33,341 log 33064 34152 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2026-04-21 17:44:33,342 log 33064 27404 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2026-04-21 17:44:33,342 log 33064 33524 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11811
+INFO 2026-04-21 17:44:33,344 log 33064 33080 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2026-04-21 17:44:33,345 log 33064 35432 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2026-04-21 17:44:33,346 log 33064 37648 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2026-04-21 17:44:33,363 log 33064 37648 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+WARNING 2026-04-21 17:44:33,422 log 33064 37648 Not Found: /@vite/client
+WARNING 2026-04-21 17:44:33,422 log 33064 37648 "GET /@vite/client HTTP/1.1" 404 2708
+INFO 2026-04-21 17:44:37,670 log 33064 37648 "GET /admin/ HTTP/1.1" 200 6002
+WARNING 2026-04-21 17:44:37,724 log 33064 37648 Not Found: /@vite/client
+WARNING 2026-04-21 17:44:37,725 log 33064 37648 "GET /@vite/client HTTP/1.1" 404 2708
+INFO 2026-04-21 17:45:02,356 autoreload 36540 4200 Watching for file changes with StatReloader
+INFO 2026-04-21 17:45:03,673 autoreload 4136 31680 Watching for file changes with StatReloader
+WARNING 2026-04-21 17:45:29,963 log 33064 23780 Not Found: /
+WARNING 2026-04-21 17:45:29,964 log 33064 23780 "GET / HTTP/1.1" 404 2654
+WARNING 2026-04-21 17:45:29,993 log 33064 23780 Not Found: /@vite/client
+WARNING 2026-04-21 17:45:29,994 log 33064 23780 "GET /@vite/client HTTP/1.1" 404 2708
+INFO 2026-04-21 17:45:31,480 log 33064 23780 "GET /admin/ HTTP/1.1" 200 6002
+WARNING 2026-04-21 17:45:31,516 log 33064 23780 Not Found: /@vite/client
+WARNING 2026-04-21 17:45:31,516 log 33064 23780 "GET /@vite/client HTTP/1.1" 404 2708
+INFO 2026-04-21 17:45:33,093 log 33064 23780 "GET /admin/auth/user/ HTTP/1.1" 200 12108
+INFO 2026-04-21 17:45:33,110 log 33064 23780 "GET /static/admin/css/changelists.css HTTP/1.1" 200 7498
+INFO 2026-04-21 17:45:33,117 log 33064 13772 "GET /admin/jsi18n/ HTTP/1.1" 200 8869
+INFO 2026-04-21 17:45:33,120 log 33064 23780 "GET /static/admin/img/search.svg HTTP/1.1" 200 607
+INFO 2026-04-21 17:45:33,122 log 33064 13772 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 558
+INFO 2026-04-21 17:45:33,130 log 33064 13772 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 645
+INFO 2026-04-21 17:45:33,141 log 33064 13772 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2026-04-21 17:45:33,147 log 33064 13772 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 593
+INFO 2026-04-21 17:45:33,147 log 33064 23780 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 928
+INFO 2026-04-21 17:45:33,152 log 33064 13772 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1761
+WARNING 2026-04-21 17:45:33,276 log 33064 13772 Not Found: /@vite/client
+WARNING 2026-04-21 17:45:33,277 log 33064 13772 "GET /@vite/client HTTP/1.1" 404 2708
+INFO 2026-04-21 17:45:37,649 log 33064 13772 "GET /admin/ HTTP/1.1" 200 6002
+WARNING 2026-04-21 17:45:37,716 log 33064 13772 Not Found: /@vite/client
+WARNING 2026-04-21 17:45:37,716 log 33064 13772 "GET /@vite/client HTTP/1.1" 404 2708
+INFO 2026-04-21 17:45:39,584 log 33064 13772 "GET /admin/auth/user/add/ HTTP/1.1" 200 11950
+INFO 2026-04-21 17:45:39,614 log 33064 13772 "GET /admin/jsi18n/ HTTP/1.1" 200 8869
+WARNING 2026-04-21 17:45:39,665 log 33064 13772 Not Found: /@vite/client
+WARNING 2026-04-21 17:45:39,666 log 33064 13772 "GET /@vite/client HTTP/1.1" 404 2708
+INFO 2026-04-21 17:45:42,444 log 33064 13772 "GET /admin/ HTTP/1.1" 200 6002
+WARNING 2026-04-21 17:45:42,918 log 33064 13772 Not Found: /@vite/client
+WARNING 2026-04-21 17:45:42,918 log 33064 13772 "GET /@vite/client HTTP/1.1" 404 2708
+INFO 2026-04-21 17:45:43,611 log 33064 13772 "GET /admin/auth/group/add/ HTTP/1.1" 200 14854
+INFO 2026-04-21 17:45:43,631 log 33064 13772 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2026-04-21 17:45:43,631 log 33064 10520 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 16428
+INFO 2026-04-21 17:45:43,635 log 33064 23780 "GET /admin/jsi18n/ HTTP/1.1" 200 8869
+INFO 2026-04-21 17:45:43,689 log 33064 23780 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 2387
+WARNING 2026-04-21 17:45:43,734 log 33064 23780 Not Found: /@vite/client
+WARNING 2026-04-21 17:45:43,735 log 33064 23780 "GET /@vite/client HTTP/1.1" 404 2708
+INFO 2026-04-21 17:45:47,007 log 33064 23780 "GET /admin/ HTTP/1.1" 200 6002
+WARNING 2026-04-21 17:45:47,068 log 33064 23780 Not Found: /@vite/client
+WARNING 2026-04-21 17:45:47,068 log 33064 23780 "GET /@vite/client HTTP/1.1" 404 2708
+INFO 2026-04-21 17:56:28,466 autoreload 19092 33224 D:\xinshen\welcome_assistant\urls.py changed, reloading.
+INFO 2026-04-21 17:56:28,638 autoreload 33064 35128 D:\xinshen\welcome_assistant\urls.py changed, reloading.
+INFO 2026-04-21 17:56:29,252 autoreload 27672 4160 D:\xinshen\welcome_assistant\urls.py changed, reloading.
+INFO 2026-04-21 17:56:29,427 autoreload 4136 31680 D:\xinshen\welcome_assistant\urls.py changed, reloading.
+INFO 2026-04-21 17:56:29,459 autoreload 36540 4200 D:\xinshen\welcome_assistant\urls.py changed, reloading.
+INFO 2026-04-21 17:56:30,089 autoreload 8284 32248 Watching for file changes with StatReloader
+INFO 2026-04-21 17:56:30,167 autoreload 30284 30992 Watching for file changes with StatReloader
+INFO 2026-04-21 17:56:30,702 autoreload 38488 29456 Watching for file changes with StatReloader
+INFO 2026-04-21 17:56:30,747 autoreload 38152 2904 Watching for file changes with StatReloader
+INFO 2026-04-21 17:56:30,966 autoreload 30864 2752 Watching for file changes with StatReloader
+INFO 2026-04-21 17:57:52,526 log 8284 39140 "GET / HTTP/1.1" 200 5464
+WARNING 2026-04-21 17:57:54,910 log 8284 39140 Not Found: /@vite/client
+WARNING 2026-04-21 17:57:54,911 log 8284 39140 "GET /@vite/client HTTP/1.1" 404 5386
+INFO 2026-04-21 17:57:58,526 log 8284 39140 "GET /student/login/ HTTP/1.1" 200 5732
+WARNING 2026-04-21 17:57:58,567 log 8284 39140 Not Found: /@vite/client
+WARNING 2026-04-21 17:57:58,568 log 8284 39140 "GET /@vite/client HTTP/1.1" 404 5386
+INFO 2026-04-21 17:58:01,768 log 8284 39140 "GET /student/register/ HTTP/1.1" 200 9543
+WARNING 2026-04-21 17:58:02,044 log 8284 39132 Not Found: /@vite/client
+WARNING 2026-04-21 17:58:02,046 log 8284 39132 "GET /@vite/client HTTP/1.1" 404 5386
+INFO 2026-04-21 17:58:02,089 log 8284 39140 "GET /api/majors/ HTTP/1.1" 200 274
+ERROR 2026-04-21 17:58:06,235 log 8284 39140 Internal Server Error: /student/dashboard/
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\新建文件夹\Lib\site-packages\django\core\handlers\base.py", line 221, in _get_response
+    response = response.render()
+  File "D:\新建文件夹\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "D:\新建文件夹\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "D:\新建文件夹\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\新建文件夹\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\新建文件夹\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\新建文件夹\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\新建文件夹\Lib\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 556, in parse
+    raise self.error(token, e)
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 554, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 676, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 776, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\xinshen\templates\student\dashboard.html, Could not parse the remainder: ' == 'checked_in'?'success':'warning'' from 'student.status|default:'warning' == 'checked_in'?'success':'warning''
+ERROR 2026-04-21 17:58:06,251 log 8284 39140 "GET /student/dashboard/ HTTP/1.1" 500 212501
+WARNING 2026-04-21 17:58:06,628 log 8284 39140 Not Found: /@vite/client
+WARNING 2026-04-21 17:58:06,629 log 8284 39140 "GET /@vite/client HTTP/1.1" 404 5386
+ERROR 2026-04-21 17:58:11,457 log 8284 39140 Internal Server Error: /student/dashboard/
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\新建文件夹\Lib\site-packages\django\core\handlers\base.py", line 221, in _get_response
+    response = response.render()
+  File "D:\新建文件夹\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "D:\新建文件夹\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "D:\新建文件夹\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\新建文件夹\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\新建文件夹\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\新建文件夹\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\新建文件夹\Lib\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 556, in parse
+    raise self.error(token, e)
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 554, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 676, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 776, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\xinshen\templates\student\dashboard.html, Could not parse the remainder: ' == 'checked_in'?'success':'warning'' from 'student.status|default:'warning' == 'checked_in'?'success':'warning''
+ERROR 2026-04-21 17:58:11,469 log 8284 39140 "GET /student/dashboard/ HTTP/1.1" 500 212766
+WARNING 2026-04-21 17:58:12,139 log 8284 39140 Not Found: /@vite/client
+WARNING 2026-04-21 17:58:12,140 log 8284 39140 "GET /@vite/client HTTP/1.1" 404 5386
+WARNING 2026-04-21 17:58:13,273 log 8284 39140 Not Found: /@vite/client
+WARNING 2026-04-21 17:58:13,273 log 8284 39140 "GET /@vite/client HTTP/1.1" 404 5386
+WARNING 2026-04-21 17:58:13,968 log 8284 39140 Not Found: /admin/students/
+WARNING 2026-04-21 17:58:13,969 log 8284 39140 "GET /admin/students/ HTTP/1.1" 404 5433
+WARNING 2026-04-21 17:58:13,997 log 8284 39140 Not Found: /@vite/client
+WARNING 2026-04-21 17:58:13,997 log 8284 39140 "GET /@vite/client HTTP/1.1" 404 5386
+WARNING 2026-04-21 17:58:15,395 log 8284 39140 Not Found: /admin/students/
+WARNING 2026-04-21 17:58:15,395 log 8284 39140 "GET /admin/students/ HTTP/1.1" 404 5433
+WARNING 2026-04-21 17:58:15,490 log 8284 39140 Not Found: /@vite/client
+WARNING 2026-04-21 17:58:15,490 log 8284 39140 "GET /@vite/client HTTP/1.1" 404 5386
+WARNING 2026-04-21 17:58:18,957 log 8284 39140 Not Found: /admin/students/
+WARNING 2026-04-21 17:58:18,958 log 8284 39140 "GET /admin/students/ HTTP/1.1" 404 5433
+WARNING 2026-04-21 17:58:19,096 log 8284 39140 Not Found: /@vite/client
+WARNING 2026-04-21 17:58:19,096 log 8284 39140 "GET /@vite/client HTTP/1.1" 404 5386
+WARNING 2026-04-21 17:58:19,632 log 8284 39140 Not Found: /@vite/client
+WARNING 2026-04-21 17:58:19,632 log 8284 39140 "GET /@vite/client HTTP/1.1" 404 5386
+INFO 2026-04-21 17:58:23,144 log 8284 39140 "GET / HTTP/1.1" 200 5464
+WARNING 2026-04-21 17:58:23,188 log 8284 39140 Not Found: /@vite/client
+WARNING 2026-04-21 17:58:23,189 log 8284 39140 "GET /@vite/client HTTP/1.1" 404 5386
+INFO 2026-04-21 17:58:31,001 log 8284 39140 "GET /student/login/ HTTP/1.1" 200 5732
+WARNING 2026-04-21 17:58:31,032 log 8284 39140 Not Found: /@vite/client
+WARNING 2026-04-21 17:58:31,033 log 8284 39140 "GET /@vite/client HTTP/1.1" 404 5386
+INFO 2026-04-21 17:58:35,674 log 8284 39140 "GET /student/register/ HTTP/1.1" 200 9543
+WARNING 2026-04-21 17:58:35,718 log 8284 39132 Not Found: /@vite/client
+INFO 2026-04-21 17:58:35,718 log 8284 39140 "GET /api/majors/ HTTP/1.1" 200 274
+WARNING 2026-04-21 17:58:35,718 log 8284 39132 "GET /@vite/client HTTP/1.1" 404 5386
+WARNING 2026-04-21 17:58:58,493 log 8284 39132 Forbidden: /api/students/
+WARNING 2026-04-21 17:58:58,493 log 8284 39132 "POST /api/students/ HTTP/1.1" 403 107
+ERROR 2026-04-21 17:59:13,046 log 8284 39132 Internal Server Error: /student/dashboard/
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\新建文件夹\Lib\site-packages\django\core\handlers\base.py", line 221, in _get_response
+    response = response.render()
+  File "D:\新建文件夹\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "D:\新建文件夹\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "D:\新建文件夹\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\新建文件夹\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\新建文件夹\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\新建文件夹\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\新建文件夹\Lib\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 556, in parse
+    raise self.error(token, e)
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 554, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 676, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 776, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\xinshen\templates\student\dashboard.html, Could not parse the remainder: ' == 'checked_in'?'success':'warning'' from 'student.status|default:'warning' == 'checked_in'?'success':'warning''
+ERROR 2026-04-21 17:59:13,055 log 8284 39132 "GET /student/dashboard/ HTTP/1.1" 500 212501
+WARNING 2026-04-21 17:59:13,832 log 8284 39132 Not Found: /@vite/client
+WARNING 2026-04-21 17:59:13,832 log 8284 39132 "GET /@vite/client HTTP/1.1" 404 5386
+WARNING 2026-04-21 17:59:14,464 log 8284 39132 Not Found: /@vite/client
+WARNING 2026-04-21 17:59:14,464 log 8284 39132 "GET /@vite/client HTTP/1.1" 404 5386
+INFO 2026-04-21 17:59:16,685 log 8284 39132 "GET /student/login/ HTTP/1.1" 200 5732
+WARNING 2026-04-21 17:59:16,716 log 8284 39132 Not Found: /@vite/client
+WARNING 2026-04-21 17:59:16,716 log 8284 39132 "GET /@vite/client HTTP/1.1" 404 5386
+INFO 2026-04-21 17:59:17,646 log 8284 39132 "GET / HTTP/1.1" 200 5464
+WARNING 2026-04-21 17:59:17,853 log 8284 39132 Not Found: /@vite/client
+WARNING 2026-04-21 17:59:17,853 log 8284 39132 "GET /@vite/client HTTP/1.1" 404 5386
+INFO 2026-04-21 17:59:19,591 log 8284 39132 "GET /admin/ HTTP/1.1" 200 7788
+WARNING 2026-04-21 17:59:19,625 log 8284 39132 Not Found: /@vite/client
+WARNING 2026-04-21 17:59:19,625 log 8284 39132 "GET /@vite/client HTTP/1.1" 404 5386
+WARNING 2026-04-21 17:59:24,513 log 8284 39132 Not Found: /admin/dormitory/
+WARNING 2026-04-21 17:59:24,514 log 8284 39132 "GET /admin/dormitory/ HTTP/1.1" 404 5436
+WARNING 2026-04-21 17:59:24,668 log 8284 39132 Not Found: /@vite/client
+WARNING 2026-04-21 17:59:24,668 log 8284 39132 "GET /@vite/client HTTP/1.1" 404 5386
+INFO 2026-04-21 17:59:25,775 log 8284 39132 "GET /admin/ HTTP/1.1" 200 7788
+WARNING 2026-04-21 17:59:25,836 log 8284 39132 Not Found: /@vite/client
+WARNING 2026-04-21 17:59:25,837 log 8284 39132 "GET /@vite/client HTTP/1.1" 404 5386
+WARNING 2026-04-21 17:59:28,171 log 8284 39132 Not Found: /@vite/client
+WARNING 2026-04-21 17:59:28,172 log 8284 39132 "GET /@vite/client HTTP/1.1" 404 5386
+INFO 2026-04-21 18:01:06,304 log 8284 28656 "GET / HTTP/1.1" 200 5464
+WARNING 2026-04-21 18:01:06,606 log 8284 28656 Not Found: /@vite/client
+WARNING 2026-04-21 18:01:06,606 log 8284 28656 "GET /@vite/client HTTP/1.1" 404 5386
+INFO 2026-04-21 18:01:30,857 autoreload 36324 35780 Watching for file changes with StatReloader
+INFO 2026-04-21 18:01:35,431 log 8284 28656 "GET /admin/ HTTP/1.1" 200 7788
+WARNING 2026-04-21 18:01:35,475 log 8284 28656 Not Found: /@vite/client
+WARNING 2026-04-21 18:01:35,475 log 8284 28656 "GET /@vite/client HTTP/1.1" 404 5386
+INFO 2026-04-21 18:01:44,733 log 8284 28656 "GET /student/register/ HTTP/1.1" 200 9543
+INFO 2026-04-21 18:01:44,755 log 8284 28656 "GET /api/majors/ HTTP/1.1" 200 274
+WARNING 2026-04-21 18:01:44,772 log 8284 28656 Not Found: /@vite/client
+WARNING 2026-04-21 18:01:44,773 log 8284 28656 "GET /@vite/client HTTP/1.1" 404 5386
+WARNING 2026-04-21 18:01:46,715 log 8284 28656 Not Found: /admin/checkin/
+WARNING 2026-04-21 18:01:46,716 log 8284 28656 "GET /admin/checkin/ HTTP/1.1" 404 5430
+WARNING 2026-04-21 18:01:46,756 log 8284 28656 Not Found: /@vite/client
+WARNING 2026-04-21 18:01:46,756 log 8284 28656 "GET /@vite/client HTTP/1.1" 404 5386
+WARNING 2026-04-21 18:01:47,669 log 8284 28656 Not Found: /admin/students/
+WARNING 2026-04-21 18:01:47,669 log 8284 28656 "GET /admin/students/ HTTP/1.1" 404 5433
+WARNING 2026-04-21 18:01:47,704 log 8284 28656 Not Found: /@vite/client
+WARNING 2026-04-21 18:01:47,705 log 8284 28656 "GET /@vite/client HTTP/1.1" 404 5386
+WARNING 2026-04-21 18:01:49,036 log 8284 28656 Not Found: /admin/students/
+WARNING 2026-04-21 18:01:49,037 log 8284 28656 "GET /admin/students/ HTTP/1.1" 404 5433
+WARNING 2026-04-21 18:01:49,061 log 8284 28656 Not Found: /@vite/client
+WARNING 2026-04-21 18:01:49,062 log 8284 28656 "GET /@vite/client HTTP/1.1" 404 5386
+ERROR 2026-04-21 18:01:50,287 log 8284 28656 Internal Server Error: /student/dashboard/
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\新建文件夹\Lib\site-packages\django\core\handlers\base.py", line 221, in _get_response
+    response = response.render()
+  File "D:\新建文件夹\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "D:\新建文件夹\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "D:\新建文件夹\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\django\template\engine.py", line 186, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\新建文件夹\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\新建文件夹\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 157, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 199, in compile_nodelist
+    nodelist = parser.parse()
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\新建文件夹\Lib\site-packages\django\template\loader_tags.py", line 307, in do_extends
+    nodelist = parser.parse()
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 585, in parse
+    raise self.error(token, e)
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 583, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\新建文件夹\Lib\site-packages\django\template\loader_tags.py", line 235, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 556, in parse
+    raise self.error(token, e)
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 554, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 676, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\新建文件夹\Lib\site-packages\django\template\base.py", line 776, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Template: D:\xinshen\templates\student\dashboard.html, Could not parse the remainder: ' == 'checked_in'?'success':'warning'' from 'student.status|default:'warning' == 'checked_in'?'success':'warning''
+ERROR 2026-04-21 18:01:50,297 log 8284 28656 "GET /student/dashboard/ HTTP/1.1" 500 212501
+WARNING 2026-04-21 18:01:50,740 log 8284 28656 Not Found: /@vite/client
+WARNING 2026-04-21 18:01:50,740 log 8284 28656 "GET /@vite/client HTTP/1.1" 404 5386
+INFO 2026-04-21 18:01:51,055 log 8284 28656 "GET /student/register/ HTTP/1.1" 200 9543
+INFO 2026-04-21 18:01:51,088 log 8284 28656 "GET /api/majors/ HTTP/1.1" 200 274
+WARNING 2026-04-21 18:01:51,099 log 8284 28656 Not Found: /@vite/client
+WARNING 2026-04-21 18:01:51,100 log 8284 28656 "GET /@vite/client HTTP/1.1" 404 5386
+INFO 2026-04-21 18:01:52,811 log 8284 28656 "GET /student/login/ HTTP/1.1" 200 5732
+WARNING 2026-04-21 18:01:52,856 log 8284 28656 Not Found: /@vite/client
+WARNING 2026-04-21 18:01:52,857 log 8284 28656 "GET /@vite/client HTTP/1.1" 404 5386
+INFO 2026-04-21 18:01:53,770 log 8284 28656 "GET / HTTP/1.1" 200 5464
+WARNING 2026-04-21 18:01:53,800 log 8284 28656 Not Found: /@vite/client
+WARNING 2026-04-21 18:01:53,801 log 8284 28656 "GET /@vite/client HTTP/1.1" 404 5386
+INFO 2026-04-21 18:05:06,577 autoreload 36324 35780 D:\xinshen\welcome_app\views.py changed, reloading.
+INFO 2026-04-21 18:05:06,657 autoreload 30284 30992 D:\xinshen\welcome_app\urls.py changed, reloading.
+INFO 2026-04-21 18:05:06,706 autoreload 8284 32248 D:\xinshen\welcome_app\urls.py changed, reloading.
+INFO 2026-04-21 18:05:06,925 autoreload 38152 2904 D:\xinshen\welcome_app\urls.py changed, reloading.
+INFO 2026-04-21 18:05:07,182 autoreload 38488 29456 D:\xinshen\welcome_assistant\settings.py changed, reloading.
+INFO 2026-04-21 18:05:07,528 autoreload 30864 2752 D:\xinshen\welcome_app\frontend_views.py changed, reloading.
+INFO 2026-04-21 18:05:08,118 autoreload 38764 39528 Watching for file changes with StatReloader
+INFO 2026-04-21 18:05:08,396 autoreload 37236 20684 Watching for file changes with StatReloader
+INFO 2026-04-21 18:05:08,569 autoreload 29856 32472 Watching for file changes with StatReloader
+INFO 2026-04-21 18:05:08,641 autoreload 38408 16620 Watching for file changes with StatReloader
+INFO 2026-04-21 18:05:08,712 autoreload 7308 36940 Watching for file changes with StatReloader
+INFO 2026-04-21 18:05:09,499 autoreload 34212 39616 Watching for file changes with StatReloader
+INFO 2026-04-21 18:11:11,549 autoreload 34212 39616 D:\xinshen\welcome_app\frontend_views.py changed, reloading.
+INFO 2026-04-21 18:11:11,849 autoreload 38408 16620 D:\xinshen\welcome_app\frontend_views.py changed, reloading.
+INFO 2026-04-21 18:11:11,970 autoreload 37236 20684 D:\xinshen\welcome_app\frontend_views.py changed, reloading.
+INFO 2026-04-21 18:11:12,224 autoreload 7308 36940 D:\xinshen\welcome_app\frontend_views.py changed, reloading.
+INFO 2026-04-21 18:11:12,348 autoreload 38764 39528 D:\xinshen\welcome_app\frontend_views.py changed, reloading.
+INFO 2026-04-21 18:11:12,825 autoreload 29856 32472 D:\xinshen\welcome_app\frontend_views.py changed, reloading.
+INFO 2026-04-21 18:11:13,017 autoreload 35392 30832 Watching for file changes with StatReloader
+INFO 2026-04-21 18:11:13,075 autoreload 36444 28600 Watching for file changes with StatReloader
+INFO 2026-04-21 18:11:13,304 autoreload 22032 28072 Watching for file changes with StatReloader
+INFO 2026-04-21 18:11:13,320 autoreload 35504 36572 Watching for file changes with StatReloader
+INFO 2026-04-21 18:11:13,455 autoreload 40144 36380 Watching for file changes with StatReloader
+INFO 2026-04-21 18:11:14,266 autoreload 32032 39316 Watching for file changes with StatReloader
+INFO 2026-04-21 18:11:32,219 autoreload 32032 39316 D:\xinshen\welcome_app\frontend_urls.py changed, reloading.
+INFO 2026-04-21 18:11:32,461 autoreload 36444 28600 D:\xinshen\welcome_app\frontend_urls.py changed, reloading.
+INFO 2026-04-21 18:11:32,626 autoreload 35504 36572 D:\xinshen\welcome_app\frontend_urls.py changed, reloading.
+INFO 2026-04-21 18:11:32,769 autoreload 35392 30832 D:\xinshen\welcome_app\frontend_urls.py changed, reloading.
+INFO 2026-04-21 18:11:32,795 autoreload 40144 36380 D:\xinshen\welcome_app\frontend_urls.py changed, reloading.
+INFO 2026-04-21 18:11:33,053 autoreload 22032 28072 D:\xinshen\welcome_app\frontend_urls.py changed, reloading.
+INFO 2026-04-21 18:11:33,730 autoreload 34112 25248 Watching for file changes with StatReloader
+INFO 2026-04-21 18:11:33,889 autoreload 38204 21356 Watching for file changes with StatReloader
+INFO 2026-04-21 18:11:33,956 autoreload 8628 35020 Watching for file changes with StatReloader
+INFO 2026-04-21 18:11:34,186 autoreload 30812 37256 Watching for file changes with StatReloader
+INFO 2026-04-21 18:11:34,551 autoreload 5904 29360 Watching for file changes with StatReloader
+INFO 2026-04-21 18:11:34,832 autoreload 35624 24932 Watching for file changes with StatReloader
+INFO 2026-04-21 18:14:00,422 autoreload 35932 8792 Watching for file changes with StatReloader
+INFO 2026-04-21 18:14:02,383 autoreload 39556 38952 Watching for file changes with StatReloader
+INFO 2026-04-21 18:14:49,174 autoreload 40084 16524 Watching for file changes with StatReloader
+INFO 2026-04-21 18:15:26,512 log 34112 41172 "GET / HTTP/1.1" 200 5464
+WARNING 2026-04-21 18:15:26,780 log 34112 41172 Not Found: /@vite/client
+WARNING 2026-04-21 18:15:26,781 log 34112 41172 "GET /@vite/client HTTP/1.1" 404 6486
+WARNING 2026-04-21 18:15:31,014 log 34112 41172 Not Found: /admin/students/
+WARNING 2026-04-21 18:15:31,014 log 34112 41172 "GET /admin/students/ HTTP/1.1" 404 5433
+WARNING 2026-04-21 18:15:31,045 log 34112 41172 Not Found: /@vite/client
+WARNING 2026-04-21 18:15:31,045 log 34112 41172 "GET /@vite/client HTTP/1.1" 404 6486
+INFO 2026-04-21 18:15:36,267 autoreload 34112 25248 D:\xinshen\welcome_assistant\urls.py changed, reloading.
+INFO 2026-04-21 18:15:36,680 autoreload 38204 21356 D:\xinshen\welcome_app\serializers.py changed, reloading.
+INFO 2026-04-21 18:15:37,015 autoreload 5904 29360 D:\xinshen\welcome_app\urls.py changed, reloading.
+INFO 2026-04-21 18:15:37,302 autoreload 40084 16524 D:\xinshen\welcome_app\urls.py changed, reloading.
+INFO 2026-04-21 18:15:37,328 autoreload 8628 35020 D:\xinshen\welcome_app\models.py changed, reloading.
+INFO 2026-04-21 18:15:37,366 autoreload 30812 37256 D:\xinshen\welcome_app\models.py changed, reloading.
+INFO 2026-04-21 18:15:37,497 autoreload 35624 24932 D:\xinshen\welcome_app\frontend_urls.py changed, reloading.
+INFO 2026-04-21 18:15:37,689 autoreload 41500 41504 Watching for file changes with StatReloader
+INFO 2026-04-21 18:15:38,482 autoreload 41656 41660 Watching for file changes with StatReloader
+INFO 2026-04-21 18:15:38,748 autoreload 41804 41808 Watching for file changes with StatReloader
+INFO 2026-04-21 18:15:38,771 autoreload 41828 41832 Watching for file changes with StatReloader
+INFO 2026-04-21 18:15:38,817 autoreload 41852 41856 Watching for file changes with StatReloader
+INFO 2026-04-21 18:15:38,918 autoreload 41716 41720 Watching for file changes with StatReloader
+INFO 2026-04-21 18:15:39,648 autoreload 41880 41884 Watching for file changes with StatReloader
+INFO 2026-04-22 17:14:57,841 autoreload 34564 36388 Watching for file changes with StatReloader
+INFO 2026-04-22 17:15:02,218 log 34564 40588 "GET / HTTP/1.1" 200 5464
+WARNING 2026-04-22 17:15:02,486 log 34564 40588 Not Found: /@vite/client
+WARNING 2026-04-22 17:15:02,487 log 34564 40588 "GET /@vite/client HTTP/1.1" 404 5533
+INFO 2026-04-22 17:16:17,601 autoreload 34564 36388 D:\xinshen\welcome_app\frontend_urls.py changed, reloading.
+INFO 2026-04-22 17:16:18,509 autoreload 38436 33988 Watching for file changes with StatReloader
+INFO 2026-04-22 17:16:30,928 autoreload 38436 33988 D:\xinshen\welcome_app\frontend_views.py changed, reloading.
+INFO 2026-04-22 17:16:31,769 autoreload 28336 35288 Watching for file changes with StatReloader
+INFO 2026-04-22 17:17:48,978 autoreload 28336 35288 D:\xinshen\welcome_app\frontend_urls.py changed, reloading.
+INFO 2026-04-22 17:17:49,847 autoreload 22624 27600 Watching for file changes with StatReloader
+WARNING 2026-04-22 17:18:21,688 log 33780 26636 Not Found: /admin/checkin/
+WARNING 2026-04-22 17:18:21,693 log 33780 26636 Not Found: /admin/students/
+INFO 2026-04-22 17:18:31,186 autoreload 22624 27600 D:\xinshen\welcome_app\frontend_urls.py changed, reloading.
+INFO 2026-04-22 17:18:32,024 autoreload 3936 29588 Watching for file changes with StatReloader
+WARNING 2026-04-22 17:19:18,048 log 33784 37384 Not Found: /admin/checkin/
+WARNING 2026-04-22 17:19:18,053 log 33784 37384 Not Found: /admin/students/
+INFO 2026-04-22 17:29:11,026 log 3936 7584 "GET /admin/ HTTP/1.1" 200 7890
+WARNING 2026-04-22 17:29:11,252 log 3936 7584 Not Found: /@vite/client
+WARNING 2026-04-22 17:29:11,253 log 3936 7584 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-22 17:29:20,676 log 3936 7584 "GET / HTTP/1.1" 200 8105
+WARNING 2026-04-22 17:29:20,704 log 3936 7584 Not Found: /@vite/client
+WARNING 2026-04-22 17:29:20,704 log 3936 7584 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-22 17:29:23,142 log 3936 7584 "GET /checkin/ HTTP/1.1" 200 10022
+INFO 2026-04-22 17:29:23,169 log 3936 7584 "GET /api/dashboard/stats/ HTTP/1.1" 200 372
+WARNING 2026-04-22 17:29:23,179 log 3936 12848 Not Found: /@vite/client
+WARNING 2026-04-22 17:29:23,179 log 3936 12848 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-22 17:29:23,182 log 3936 7584 "GET /api/check-ins/?date_from=2026-04-22 HTTP/1.1" 200 52
+INFO 2026-04-22 17:29:25,694 log 3936 7584 "GET /students/ HTTP/1.1" 200 14767
+INFO 2026-04-22 17:29:25,717 log 3936 7584 "GET /api/colleges/ HTTP/1.1" 200 256
+INFO 2026-04-22 17:29:25,719 log 3936 12848 "GET /api/students/?page=1 HTTP/1.1" 200 545
+WARNING 2026-04-22 17:29:25,727 log 3936 12848 Not Found: /@vite/client
+WARNING 2026-04-22 17:29:25,727 log 3936 12848 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-22 17:29:47,976 log 3936 12848 "GET /admin/ HTTP/1.1" 200 7890
+WARNING 2026-04-22 17:29:48,007 log 3936 12848 Not Found: /@vite/client
+WARNING 2026-04-22 17:29:48,007 log 3936 12848 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-22 17:30:00,907 log 3936 12848 "GET /admin/ HTTP/1.1" 200 7890
+WARNING 2026-04-22 17:30:00,947 log 3936 12848 Not Found: /@vite/client
+WARNING 2026-04-22 17:30:00,948 log 3936 12848 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-22 17:30:02,813 log 3936 12848 "GET /admin/ HTTP/1.1" 200 7890
+WARNING 2026-04-22 17:30:02,842 log 3936 12848 Not Found: /@vite/client
+WARNING 2026-04-22 17:30:02,842 log 3936 12848 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-22 17:30:30,322 log 3936 12848 "GET / HTTP/1.1" 200 8105
+WARNING 2026-04-22 17:30:30,351 log 3936 12848 Not Found: /@vite/client
+WARNING 2026-04-22 17:30:30,352 log 3936 12848 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-22 17:30:32,587 log 3936 12848 "GET /admin/ HTTP/1.1" 200 7890
+WARNING 2026-04-22 17:30:32,614 log 3936 12848 Not Found: /@vite/client
+WARNING 2026-04-22 17:30:32,614 log 3936 12848 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-22 17:30:37,956 log 3936 12848 "GET /students/ HTTP/1.1" 200 14767
+INFO 2026-04-22 17:30:37,983 log 3936 12848 "GET /api/colleges/ HTTP/1.1" 200 256
+INFO 2026-04-22 17:30:37,983 log 3936 7584 "GET /api/students/?page=1 HTTP/1.1" 200 545
+WARNING 2026-04-22 17:30:37,988 log 3936 12848 Not Found: /@vite/client
+WARNING 2026-04-22 17:30:37,988 log 3936 12848 "GET /@vite/client HTTP/1.1" 404 3629
+WARNING 2026-04-22 17:30:41,540 log 3936 12848 Not Found: /admin/students/1/
+WARNING 2026-04-22 17:30:41,541 log 3936 12848 "GET /admin/students/1/ HTTP/1.1" 404 5439
+WARNING 2026-04-22 17:30:41,572 log 3936 12848 Not Found: /@vite/client
+WARNING 2026-04-22 17:30:41,572 log 3936 12848 "GET /@vite/client HTTP/1.1" 404 3629
+WARNING 2026-04-22 17:30:43,127 log 3936 12848 Not Found: /@vite/client
+WARNING 2026-04-22 17:30:43,127 log 3936 12848 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-22 17:30:44,648 log 3936 12848 "GET /admin/ HTTP/1.1" 200 7890
+WARNING 2026-04-22 17:30:44,683 log 3936 12848 Not Found: /@vite/client
+WARNING 2026-04-22 17:30:44,684 log 3936 12848 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-22 17:32:40,411 log 3936 34240 "GET /api/announcements/ HTTP/1.1" 200 52
+INFO 2026-04-22 17:32:40,413 log 3936 30724 "GET /api/faqs/ HTTP/1.1" 200 52
+INFO 2026-04-22 17:32:40,420 log 3936 8476 "GET /api/dashboard/stats/ HTTP/1.1" 200 372
+INFO 2026-04-22 17:34:10,580 log 3936 32524 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-22 17:34:10,607 log 3936 32524 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4094
+INFO 2026-04-22 17:34:10,910 log 3936 18672 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 3538
+INFO 2026-04-22 17:34:10,911 log 3936 32524 "GET /static/admin/css/base.css HTTP/1.1" 200 23100
+INFO 2026-04-22 17:34:10,913 log 3936 18672 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-04-22 17:34:10,915 log 3936 32524 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16273
+INFO 2026-04-22 17:34:10,917 log 3936 18672 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-04-22 17:34:10,921 log 3936 18672 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2026-04-22 17:34:11,055 log 3936 33188 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+WARNING 2026-04-22 17:34:11,108 log 3936 33188 Not Found: /favicon.ico
+WARNING 2026-04-22 17:34:11,108 log 3936 33188 "GET /favicon.ico HTTP/1.1" 404 3626
+INFO 2026-04-22 17:35:24,291 log 3936 33188 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-04-22 17:35:24,299 log 3936 33188 "GET /admin/ HTTP/1.1" 200 7890
+INFO 2026-04-22 17:35:34,515 log 3936 33188 "GET /checkin/ HTTP/1.1" 200 10022
+INFO 2026-04-22 17:35:34,542 log 3936 33188 "GET /api/dashboard/stats/ HTTP/1.1" 200 372
+INFO 2026-04-22 17:35:34,551 log 3936 33188 "GET /api/check-ins/?date_from=2026-04-22 HTTP/1.1" 200 52
+INFO 2026-04-22 17:35:39,317 log 3936 33188 "GET /students/ HTTP/1.1" 200 14767
+INFO 2026-04-22 17:35:39,337 log 3936 33188 "GET /api/colleges/ HTTP/1.1" 200 256
+INFO 2026-04-22 17:35:39,339 log 3936 18672 "GET /api/students/?page=1 HTTP/1.1" 200 545
+WARNING 2026-04-22 17:35:42,180 log 3936 18672 Not Found: /admin/welcome_app/student/add/
+WARNING 2026-04-22 17:35:42,180 log 3936 18672 "GET /admin/welcome_app/student/add/ HTTP/1.1" 404 5478
+WARNING 2026-04-22 17:35:45,934 log 3936 18672 Not Found: /admin/welcome_app/announcement/add/
+WARNING 2026-04-22 17:35:45,935 log 3936 18672 "GET /admin/welcome_app/announcement/add/ HTTP/1.1" 404 5493
+INFO 2026-04-22 17:35:57,110 log 3936 18672 "GET /admin/ HTTP/1.1" 200 7890
+INFO 2026-04-22 17:35:58,961 log 3936 18672 "GET /admin/ HTTP/1.1" 200 7890
+INFO 2026-04-22 17:36:00,200 log 3936 18672 "GET /admin/ HTTP/1.1" 200 7890
+INFO 2026-04-22 17:36:00,373 log 3936 18672 "GET /admin/ HTTP/1.1" 200 7890
+INFO 2026-04-22 17:36:00,529 log 3936 18672 "GET /admin/ HTTP/1.1" 200 7890
+INFO 2026-04-22 17:36:01,132 log 3936 18672 "GET /admin/ HTTP/1.1" 200 7890
+INFO 2026-04-22 17:36:01,728 log 3936 18672 "GET /students/ HTTP/1.1" 200 14767
+INFO 2026-04-22 17:36:01,747 log 3936 18672 "GET /api/colleges/ HTTP/1.1" 200 256
+INFO 2026-04-22 17:36:01,749 log 3936 33188 "GET /api/students/?page=1 HTTP/1.1" 200 545
+INFO 2026-04-22 17:36:02,762 log 3936 33188 "GET /checkin/ HTTP/1.1" 200 10022
+INFO 2026-04-22 17:36:02,788 log 3936 33188 "GET /api/dashboard/stats/ HTTP/1.1" 200 372
+INFO 2026-04-22 17:36:02,801 log 3936 33188 "GET /api/check-ins/?date_from=2026-04-22 HTTP/1.1" 200 52
+INFO 2026-04-22 17:36:03,279 log 3936 33188 "GET / HTTP/1.1" 200 8105
+INFO 2026-04-22 17:36:03,607 log 3936 33188 "GET /students/ HTTP/1.1" 200 14767
+INFO 2026-04-22 17:36:03,628 log 3936 18672 "GET /api/students/?page=1 HTTP/1.1" 200 545
+INFO 2026-04-22 17:36:03,628 log 3936 33188 "GET /api/colleges/ HTTP/1.1" 200 256
+INFO 2026-04-22 17:36:08,991 log 3936 33188 "GET / HTTP/1.1" 200 8105
+ERROR 2026-04-22 17:37:24,839 log 3936 8476 Internal Server Error: /api/wechat/login/
+ERROR 2026-04-22 17:37:24,840 log 3936 8476 "POST /api/wechat/login/ HTTP/1.1" 500 225
+ERROR 2026-04-22 17:37:25,611 log 3936 8476 Internal Server Error: /api/wechat/login/
+ERROR 2026-04-22 17:37:25,611 log 3936 8476 "POST /api/wechat/login/ HTTP/1.1" 500 225
+ERROR 2026-04-22 17:37:26,004 log 3936 8476 Internal Server Error: /api/wechat/login/
+ERROR 2026-04-22 17:37:26,004 log 3936 8476 "POST /api/wechat/login/ HTTP/1.1" 500 225
+INFO 2026-04-22 17:37:36,550 log 3936 30724 "GET /api/announcements/ HTTP/1.1" 200 52
+INFO 2026-04-22 17:37:36,556 log 3936 34240 "GET /api/faqs/ HTTP/1.1" 200 52
+INFO 2026-04-22 17:37:36,564 log 3936 8476 "GET /api/dashboard/stats/ HTTP/1.1" 200 372
+INFO 2026-04-22 17:37:43,060 log 3936 34240 "GET /api/announcements/ HTTP/1.1" 200 52
+INFO 2026-04-22 17:37:43,062 log 3936 30724 "GET /api/faqs/ HTTP/1.1" 200 52
+INFO 2026-04-22 17:37:43,068 log 3936 8476 "GET /api/dashboard/stats/ HTTP/1.1" 200 372
+INFO 2026-04-22 17:38:50,751 log 3936 33188 "GET / HTTP/1.1" 200 8105
+INFO 2026-04-22 17:38:52,408 log 3936 33188 "GET / HTTP/1.1" 200 8105
+INFO 2026-04-22 17:38:52,709 log 3936 33188 "GET / HTTP/1.1" 200 8105
+INFO 2026-04-22 17:38:53,340 log 3936 33188 "GET /checkin/ HTTP/1.1" 200 10022
+INFO 2026-04-22 17:38:53,365 log 3936 33188 "GET /api/dashboard/stats/ HTTP/1.1" 200 372
+INFO 2026-04-22 17:38:53,374 log 3936 33188 "GET /api/check-ins/?date_from=2026-04-22 HTTP/1.1" 200 52
+INFO 2026-04-22 17:38:55,172 log 3936 33188 "GET /students/ HTTP/1.1" 200 14767
+INFO 2026-04-22 17:38:55,192 log 3936 33188 "GET /api/colleges/ HTTP/1.1" 200 256
+INFO 2026-04-22 17:38:55,194 log 3936 18672 "GET /api/students/?page=1 HTTP/1.1" 200 545
+INFO 2026-04-22 17:38:56,092 log 3936 18672 "GET / HTTP/1.1" 200 8105
+INFO 2026-04-22 17:38:56,442 log 3936 18672 "GET /checkin/ HTTP/1.1" 200 10022
+INFO 2026-04-22 17:38:56,467 log 3936 18672 "GET /api/dashboard/stats/ HTTP/1.1" 200 372
+INFO 2026-04-22 17:38:56,474 log 3936 18672 "GET /api/check-ins/?date_from=2026-04-22 HTTP/1.1" 200 52
+INFO 2026-04-22 17:38:57,168 log 3936 18672 "GET /students/ HTTP/1.1" 200 14767
+INFO 2026-04-22 17:38:57,189 log 3936 18672 "GET /api/colleges/ HTTP/1.1" 200 256
+INFO 2026-04-22 17:38:57,191 log 3936 33188 "GET /api/students/?page=1 HTTP/1.1" 200 545
+INFO 2026-04-22 17:38:58,249 log 3936 33188 "GET /checkin/ HTTP/1.1" 200 10022
+INFO 2026-04-22 17:38:58,274 log 3936 33188 "GET /api/dashboard/stats/ HTTP/1.1" 200 372
+INFO 2026-04-22 17:38:58,282 log 3936 33188 "GET /api/check-ins/?date_from=2026-04-22 HTTP/1.1" 200 52
+INFO 2026-04-22 17:38:59,822 log 3936 33188 "GET / HTTP/1.1" 200 8105
+WARNING 2026-04-22 17:39:01,439 log 3936 33188 Not Found: /admin/welcome_app/student/add/
+WARNING 2026-04-22 17:39:01,440 log 3936 33188 "GET /admin/welcome_app/student/add/ HTTP/1.1" 404 5478
+INFO 2026-04-22 17:39:35,773 log 3936 33188 "GET /checkin/ HTTP/1.1" 200 10022
+INFO 2026-04-22 17:39:35,796 log 3936 33188 "GET /api/dashboard/stats/ HTTP/1.1" 200 372
+INFO 2026-04-22 17:39:35,803 log 3936 33188 "GET /api/check-ins/?date_from=2026-04-22 HTTP/1.1" 200 52
+INFO 2026-04-22 17:39:41,887 log 3936 33188 "GET /students/ HTTP/1.1" 200 14767
+INFO 2026-04-22 17:39:41,908 log 3936 33188 "GET /api/colleges/ HTTP/1.1" 200 256
+INFO 2026-04-22 17:39:41,908 log 3936 18672 "GET /api/students/?page=1 HTTP/1.1" 200 545
+WARNING 2026-04-22 17:46:39,876 log 3936 31144 Not Found: /admin/\uff0c\u4f1a\u770b\u5230Django\u7ba1\u7406\u767b\u5f55\u754c\u9762\uff1a
+WARNING 2026-04-22 17:46:39,877 log 3936 31144 "GET /admin/%EF%BC%8C%E4%BC%9A%E7%9C%8B%E5%88%B0Django%E7%AE%A1%E7%90%86%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2%EF%BC%9A HTTP/1.1" 404 5589
+WARNING 2026-04-22 17:46:39,931 log 3936 31144 Not Found: /@vite/client
+WARNING 2026-04-22 17:46:39,932 log 3936 31144 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-22 17:46:41,476 log 3936 31144 "GET /admin/ HTTP/1.1" 200 7890
+WARNING 2026-04-22 17:46:41,520 log 3936 31144 Not Found: /@vite/client
+WARNING 2026-04-22 17:46:41,520 log 3936 31144 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-22 17:53:24,694 log 3936 30444 "GET /checkin/ HTTP/1.1" 200 10022
+INFO 2026-04-22 17:53:24,727 log 3936 30444 "GET /api/dashboard/stats/ HTTP/1.1" 200 372
+INFO 2026-04-22 17:53:24,738 log 3936 30444 "GET /api/check-ins/?date_from=2026-04-22 HTTP/1.1" 200 52
+INFO 2026-04-22 17:53:43,278 log 3936 30444 "GET /students/ HTTP/1.1" 200 14767
+INFO 2026-04-22 17:53:43,299 log 3936 30444 "GET /api/colleges/ HTTP/1.1" 200 256
+INFO 2026-04-22 17:53:43,301 log 3936 25240 "GET /api/students/?page=1 HTTP/1.1" 200 545
+INFO 2026-04-22 17:53:50,088 log 3936 25240 "GET /students/ HTTP/1.1" 200 14767
+INFO 2026-04-22 17:53:50,110 log 3936 30444 "GET /api/students/?page=1 HTTP/1.1" 200 545
+INFO 2026-04-22 17:53:50,110 log 3936 25240 "GET /api/colleges/ HTTP/1.1" 200 256
+INFO 2026-04-22 17:54:32,683 log 3936 25240 "GET /students/ HTTP/1.1" 200 14767
+INFO 2026-04-22 17:54:32,705 log 3936 25240 "GET /api/colleges/ HTTP/1.1" 200 256
+INFO 2026-04-22 17:54:32,707 log 3936 30444 "GET /api/students/?page=1 HTTP/1.1" 200 545
+WARNING 2026-04-22 17:54:42,535 log 3936 30444 Not Found: /admin/students/1/
+WARNING 2026-04-22 17:54:42,536 log 3936 30444 "GET /admin/students/1/ HTTP/1.1" 404 5439
+WARNING 2026-04-22 17:54:48,566 log 3936 30444 Not Found: /admin/welcome_app/student/add/
+WARNING 2026-04-22 17:54:48,567 log 3936 30444 "GET /admin/welcome_app/student/add/ HTTP/1.1" 404 5478
+INFO 2026-04-22 17:55:54,632 log 3936 30444 "GET /students/ HTTP/1.1" 200 14767
+INFO 2026-04-22 17:55:54,652 log 3936 30444 "GET /api/colleges/ HTTP/1.1" 200 256
+INFO 2026-04-22 17:55:54,655 log 3936 25240 "GET /api/students/?page=1 HTTP/1.1" 200 545
+WARNING 2026-04-22 17:56:07,688 log 3936 25240 Forbidden: /api/students/
+WARNING 2026-04-22 17:56:07,688 log 3936 25240 "POST /api/students/ HTTP/1.1" 403 107
+WARNING 2026-04-22 17:56:10,767 log 3936 25240 Forbidden: /api/students/
+WARNING 2026-04-22 17:56:10,767 log 3936 25240 "POST /api/students/ HTTP/1.1" 403 107
+INFO 2026-04-22 17:58:19,656 autoreload 3936 29588 D:\xinshen\welcome_assistant\settings.py changed, reloading.
+INFO 2026-04-22 17:58:20,596 autoreload 31188 9564 Watching for file changes with StatReloader
+INFO 2026-04-22 17:59:30,576 autoreload 31188 9564 D:\xinshen\welcome_assistant\settings.py changed, reloading.
+INFO 2026-04-22 17:59:31,482 autoreload 23852 22196 Watching for file changes with StatReloader
+INFO 2026-04-22 18:48:30,314 log 23852 36252 "GET /admin/ HTTP/1.1" 200 7890
+WARNING 2026-04-22 18:48:30,755 log 23852 36252 Not Found: /@vite/client
+WARNING 2026-04-22 18:48:30,756 log 23852 36252 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-22 18:48:52,260 autoreload 23852 22196 D:\xinshen\welcome_assistant\settings.py changed, reloading.
+INFO 2026-04-22 18:48:53,457 autoreload 28276 21344 Watching for file changes with StatReloader
+INFO 2026-04-22 18:52:12,790 autoreload 28276 21344 D:\xinshen\welcome_assistant\settings.py changed, reloading.
+INFO 2026-04-22 18:52:13,643 autoreload 13720 40552 Watching for file changes with StatReloader
+INFO 2026-04-22 18:56:07,992 autoreload 13720 40552 D:\xinshen\welcome_assistant\settings.py changed, reloading.
+INFO 2026-04-22 18:56:08,867 autoreload 20684 10868 Watching for file changes with StatReloader
+INFO 2026-04-23 09:43:06,192 autoreload 35060 21312 Watching for file changes with StatReloader
+WARNING 2026-04-23 09:54:12,450 log 35060 22340 Not Found: /favicon.ico
+WARNING 2026-04-23 09:54:12,451 log 35060 22340 "GET /favicon.ico HTTP/1.1" 404 3626
+INFO 2026-04-23 09:54:13,932 log 35060 22340 "GET / HTTP/1.1" 200 7890
+INFO 2026-04-23 09:54:44,685 log 35060 22340 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-23 09:54:44,779 log 35060 22340 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4094
+INFO 2026-04-23 09:54:48,355 log 35060 22340 "GET /students/ HTTP/1.1" 200 14559
+INFO 2026-04-23 09:54:48,482 log 35060 22340 "GET /api/colleges/ HTTP/1.1" 200 52
+INFO 2026-04-23 09:54:48,488 log 35060 36196 "GET /api/students/?page=1 HTTP/1.1" 200 52
+WARNING 2026-04-23 09:54:51,289 log 35060 36196 Bad Request: /api/students/
+WARNING 2026-04-23 09:54:51,290 log 35060 36196 "POST /api/students/ HTTP/1.1" 400 428
+INFO 2026-04-23 09:54:56,786 log 35060 36196 "GET / HTTP/1.1" 200 7890
+INFO 2026-04-23 09:54:57,810 log 35060 36196 "GET /admin/welcome_app/student/add/ HTTP/1.1" 302 0
+INFO 2026-04-23 09:54:57,819 log 35060 36196 "GET /admin/login/?next=/admin/welcome_app/student/add/ HTTP/1.1" 200 4142
+INFO 2026-04-23 09:54:57,829 log 35060 3156 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2026-04-23 09:54:57,829 log 35060 22340 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2026-04-23 09:54:57,829 log 35060 36196 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2026-04-23 09:54:57,833 log 35060 3156 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2026-04-23 09:54:57,833 log 35060 22340 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2026-04-23 09:54:57,833 log 35060 36196 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2026-04-23 09:54:57,836 log 35060 3156 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2026-04-23 10:01:55,305 basehttp 35060 6364 - Broken pipe from ('127.0.0.1', 60848)
+INFO 2026-04-23 10:01:55,793 log 35060 37624 "POST /admin/login/?next=/admin/welcome_app/student/add/ HTTP/1.1" 200 4299
+INFO 2026-04-23 10:02:31,435 log 35060 37624 "POST /admin/login/?next=/admin/welcome_app/student/add/ HTTP/1.1" 200 4299
+INFO 2026-04-23 10:03:46,132 log 35060 17616 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-23 10:03:46,203 log 35060 17616 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4094
+INFO 2026-04-23 10:03:46,760 log 35060 15840 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-04-23 10:03:46,808 log 35060 34560 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-04-23 10:03:46,813 log 35060 17616 "GET /static/admin/css/base.css HTTP/1.1" 200 23100
+INFO 2026-04-23 10:03:46,819 log 35060 36784 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 3538
+INFO 2026-04-23 10:03:46,825 log 35060 36784 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2026-04-23 10:03:46,829 log 35060 27936 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16273
+INFO 2026-04-23 10:03:46,834 log 35060 28368 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+WARNING 2026-04-23 10:03:46,891 log 35060 28368 Not Found: /@vite/client
+WARNING 2026-04-23 10:03:46,892 log 35060 28368 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:04:02,510 log 35060 28368 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-04-23 10:04:02,627 log 35060 28368 "GET /admin/ HTTP/1.1" 200 7890
+WARNING 2026-04-23 10:04:02,725 log 35060 28368 Not Found: /@vite/client
+WARNING 2026-04-23 10:04:02,725 log 35060 28368 "GET /@vite/client HTTP/1.1" 404 3629
+WARNING 2026-04-23 10:04:09,098 log 35060 28368 Not Found: /admin/welcome_app/student/add/
+WARNING 2026-04-23 10:04:09,098 log 35060 28368 "GET /admin/welcome_app/student/add/ HTTP/1.1" 404 5478
+WARNING 2026-04-23 10:04:09,132 log 35060 28368 Not Found: /@vite/client
+WARNING 2026-04-23 10:04:09,133 log 35060 28368 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:04:10,525 log 35060 28368 "GET /admin/ HTTP/1.1" 200 7890
+WARNING 2026-04-23 10:04:10,814 log 35060 28368 Not Found: /@vite/client
+WARNING 2026-04-23 10:04:10,815 log 35060 28368 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:04:11,708 log 35060 28368 "GET /students/ HTTP/1.1" 200 14559
+WARNING 2026-04-23 10:04:11,751 log 35060 36784 Not Found: /@vite/client
+WARNING 2026-04-23 10:04:11,752 log 35060 36784 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:04:11,869 log 35060 28368 "GET /api/colleges/ HTTP/1.1" 200 52
+INFO 2026-04-23 10:04:11,882 log 35060 27936 "GET /api/students/?page=1 HTTP/1.1" 200 52
+WARNING 2026-04-23 10:04:26,486 log 35060 27936 Forbidden: /api/students/
+WARNING 2026-04-23 10:04:26,486 log 35060 27936 "POST /api/students/ HTTP/1.1" 403 107
+INFO 2026-04-23 10:04:31,810 log 35060 27936 "GET /admin/ HTTP/1.1" 200 7890
+WARNING 2026-04-23 10:04:31,838 log 35060 27936 Not Found: /@vite/client
+WARNING 2026-04-23 10:04:31,839 log 35060 27936 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:05:48,908 autoreload 35060 21312 D:\xinshen\welcome_app\admin.py changed, reloading.
+INFO 2026-04-23 10:05:49,896 autoreload 40796 8816 Watching for file changes with StatReloader
+INFO 2026-04-23 10:06:00,537 autoreload 40796 8816 D:\xinshen\welcome_app\admin.py changed, reloading.
+INFO 2026-04-23 10:06:01,580 autoreload 41964 36400 Watching for file changes with StatReloader
+INFO 2026-04-23 10:06:41,796 autoreload 41964 36400 D:\xinshen\welcome_app\models.py changed, reloading.
+INFO 2026-04-23 10:06:42,773 autoreload 33764 40688 Watching for file changes with StatReloader
+INFO 2026-04-23 10:07:12,566 autoreload 33764 40688 D:\xinshen\welcome_app\admin.py changed, reloading.
+INFO 2026-04-23 10:07:13,534 autoreload 40120 16340 Watching for file changes with StatReloader
+INFO 2026-04-23 10:07:33,608 autoreload 40120 16340 D:\xinshen\welcome_app\admin.py changed, reloading.
+INFO 2026-04-23 10:07:34,724 autoreload 35108 8484 Watching for file changes with StatReloader
+INFO 2026-04-23 10:08:08,073 log 35108 31272 "GET /admin/ HTTP/1.1" 200 7890
+WARNING 2026-04-23 10:08:08,228 log 35108 31272 Not Found: /@vite/client
+WARNING 2026-04-23 10:08:08,229 log 35108 31272 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:08:29,386 log 35108 31272 "GET /admin/welcome_app/student/add/ HTTP/1.1" 200 28383
+INFO 2026-04-23 10:08:29,551 log 35108 12296 "GET /admin/jsi18n/ HTTP/1.1" 200 8869
+INFO 2026-04-23 10:08:29,887 log 35108 32972 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2026-04-23 10:08:29,891 log 35108 32972 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2026-04-23 10:08:29,895 log 35108 32972 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2026-04-23 10:08:29,899 log 35108 32972 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2026-04-23 10:08:29,903 log 35108 32972 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2026-04-23 10:08:29,910 log 35108 32972 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2026-04-23 10:08:29,914 log 35108 31272 "GET /static/admin/css/forms.css HTTP/1.1" 200 8831
+INFO 2026-04-23 10:08:29,916 log 35108 32972 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2026-04-23 10:08:29,919 log 35108 31272 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11811
+INFO 2026-04-23 10:08:29,923 log 35108 10464 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9159
+INFO 2026-04-23 10:08:29,927 log 35108 37984 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2026-04-23 10:08:29,934 log 35108 29520 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19698
+INFO 2026-04-23 10:08:29,947 log 35108 29520 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 978
+INFO 2026-04-23 10:08:29,952 log 35108 29520 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 593
+INFO 2026-04-23 10:08:29,957 log 35108 29520 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 928
+INFO 2026-04-23 10:08:29,960 log 35108 29520 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2026-04-23 10:08:30,050 log 35108 12296 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2026-04-23 10:08:30,120 log 35108 29520 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 805
+INFO 2026-04-23 10:08:30,120 log 35108 12296 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1112
+WARNING 2026-04-23 10:08:30,147 log 35108 12296 Not Found: /@vite/client
+WARNING 2026-04-23 10:08:30,148 log 35108 12296 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:08:48,368 log 35108 12296 "POST /admin/welcome_app/student/add/ HTTP/1.1" 200 28710
+INFO 2026-04-23 10:08:48,614 log 35108 12296 "GET /admin/jsi18n/ HTTP/1.1" 200 8869
+WARNING 2026-04-23 10:08:48,676 log 35108 12296 Not Found: /@vite/client
+WARNING 2026-04-23 10:08:48,677 log 35108 12296 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:08:55,105 log 35108 12296 "GET /admin/auth/user/add/?_to_field=id&_popup=1 HTTP/1.1" 200 8108
+INFO 2026-04-23 10:08:55,123 log 35108 29520 "GET /static/admin/css/unusable_password_field.css HTTP/1.1" 200 663
+INFO 2026-04-23 10:08:55,221 log 35108 12296 "GET /admin/jsi18n/ HTTP/1.1" 200 8869
+INFO 2026-04-23 10:09:09,918 log 35108 12296 "POST /admin/welcome_app/student/add/ HTTP/1.1" 302 0
+INFO 2026-04-23 10:09:10,134 log 35108 12296 "GET /admin/welcome_app/student/ HTTP/1.1" 200 18190
+INFO 2026-04-23 10:09:10,159 log 35108 12296 "GET /static/admin/css/changelists.css HTTP/1.1" 200 7498
+INFO 2026-04-23 10:09:10,167 log 35108 37984 "GET /static/admin/img/search.svg HTTP/1.1" 200 607
+INFO 2026-04-23 10:09:10,181 log 35108 37984 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2026-04-23 10:09:10,281 log 35108 29520 "GET /admin/jsi18n/ HTTP/1.1" 200 8869
+INFO 2026-04-23 10:09:10,306 log 35108 37984 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 593
+INFO 2026-04-23 10:09:10,306 log 35108 29520 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 558
+WARNING 2026-04-23 10:09:10,409 log 35108 37984 Not Found: /@vite/client
+WARNING 2026-04-23 10:09:10,410 log 35108 37984 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:09:16,863 log 35108 37984 "GET /admin/ HTTP/1.1" 200 7890
+WARNING 2026-04-23 10:09:16,948 log 35108 37984 Not Found: /@vite/client
+WARNING 2026-04-23 10:09:16,949 log 35108 37984 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:09:19,347 log 35108 37984 "GET /admin/ HTTP/1.1" 200 7890
+WARNING 2026-04-23 10:09:21,183 log 35108 37984 Not Found: /@vite/client
+WARNING 2026-04-23 10:09:21,184 log 35108 37984 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:09:24,364 log 35108 37984 "GET /students/ HTTP/1.1" 200 15869
+WARNING 2026-04-23 10:09:24,401 log 35108 12296 Not Found: /@vite/client
+WARNING 2026-04-23 10:09:24,402 log 35108 12296 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:09:24,502 log 35108 37984 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 10:09:24,508 log 35108 29520 "GET /api/students/?page=1 HTTP/1.1" 200 484
+WARNING 2026-04-23 10:09:27,189 log 35108 29520 Not Found: /admin/students/1/
+WARNING 2026-04-23 10:09:27,190 log 35108 29520 "GET /admin/students/1/ HTTP/1.1" 404 8597
+WARNING 2026-04-23 10:09:27,225 log 35108 29520 Not Found: /@vite/client
+WARNING 2026-04-23 10:09:27,226 log 35108 29520 "GET /@vite/client HTTP/1.1" 404 3629
+WARNING 2026-04-23 10:09:28,614 log 35108 29520 Not Found: /@vite/client
+WARNING 2026-04-23 10:09:28,614 log 35108 29520 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:09:29,091 log 35108 29520 "GET /admin/ HTTP/1.1" 200 7890
+WARNING 2026-04-23 10:09:29,127 log 35108 29520 Not Found: /@vite/client
+WARNING 2026-04-23 10:09:29,129 log 35108 29520 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:10:46,425 log 35108 9500 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4094
+INFO 2026-04-23 10:11:00,898 log 35108 9500 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2026-04-23 10:11:01,002 log 35108 9500 "GET /admin/ HTTP/1.1" 200 7890
+INFO 2026-04-23 10:11:22,982 log 35108 9500 "GET /students/ HTTP/1.1" 200 15869
+INFO 2026-04-23 10:11:23,117 log 35108 9500 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 10:11:23,122 log 35108 16356 "GET /api/students/?page=1 HTTP/1.1" 200 484
+INFO 2026-04-23 10:11:37,764 log 35108 16356 "GET /checkin/ HTTP/1.1" 200 10022
+INFO 2026-04-23 10:11:37,907 log 35108 16356 "GET /api/dashboard/stats/ HTTP/1.1" 200 370
+INFO 2026-04-23 10:11:38,012 log 35108 16356 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 52
+INFO 2026-04-23 10:12:51,587 autoreload 32424 29740 Watching for file changes with StatReloader
+INFO 2026-04-23 10:13:22,336 log 35108 29520 "GET / HTTP/1.1" 200 14426
+WARNING 2026-04-23 10:13:22,381 log 35108 29520 Not Found: /@vite/client
+WARNING 2026-04-23 10:13:22,381 log 35108 29520 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:13:31,288 log 35108 29520 "GET /admin/ HTTP/1.1" 200 7890
+WARNING 2026-04-23 10:13:31,318 log 35108 29520 Not Found: /@vite/client
+WARNING 2026-04-23 10:13:31,319 log 35108 29520 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:13:36,806 log 35108 29520 "GET /checkin/ HTTP/1.1" 200 10024
+WARNING 2026-04-23 10:13:36,858 log 35108 37984 Not Found: /@vite/client
+WARNING 2026-04-23 10:13:36,859 log 35108 37984 "GET /@vite/client HTTP/1.1" 404 3629
+ERROR 2026-04-23 10:13:36,950 exceptions 35108 29520 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 409, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 10:13:36,956 log 35108 29520 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 10:13:36,957 log 35108 29520 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 10:13:37,112 log 35108 29520 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 2680
+INFO 2026-04-23 10:13:38,511 log 35108 29520 "GET /students/ HTTP/1.1" 200 15869
+WARNING 2026-04-23 10:13:38,785 log 35108 12296 Not Found: /@vite/client
+WARNING 2026-04-23 10:13:38,786 log 35108 12296 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:13:38,908 log 35108 29520 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 10:13:38,914 log 35108 37984 "GET /api/students/?page=1 HTTP/1.1" 200 5479
+INFO 2026-04-23 10:13:44,609 log 35108 37984 "GET /api/students/?page=2 HTTP/1.1" 200 3228
+INFO 2026-04-23 10:14:20,062 log 35108 16356 "GET /admin/ HTTP/1.1" 200 7890
+INFO 2026-04-23 10:14:21,828 log 35108 16356 "GET /admin/ HTTP/1.1" 200 7890
+INFO 2026-04-23 10:14:23,489 log 35108 16356 "GET / HTTP/1.1" 200 14426
+INFO 2026-04-23 10:14:35,694 log 35108 16356 "GET / HTTP/1.1" 200 14426
+INFO 2026-04-23 10:14:36,895 log 35108 16356 "GET / HTTP/1.1" 200 14426
+INFO 2026-04-23 10:14:39,959 log 35108 16356 "GET /checkin/ HTTP/1.1" 200 10024
+ERROR 2026-04-23 10:14:40,104 exceptions 35108 16356 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 409, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 10:14:40,107 log 35108 16356 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 10:14:40,108 log 35108 16356 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 10:14:40,223 log 35108 16356 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 2680
+INFO 2026-04-23 10:14:40,863 log 35108 16356 "GET /students/ HTTP/1.1" 200 15869
+INFO 2026-04-23 10:14:41,009 log 35108 16356 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 10:14:41,016 log 35108 9500 "GET /api/students/?page=1 HTTP/1.1" 200 5479
+INFO 2026-04-23 10:14:41,810 log 35108 9500 "GET /admin/ HTTP/1.1" 200 7890
+INFO 2026-04-23 10:14:44,482 log 35108 9500 "GET /admin/ HTTP/1.1" 200 7890
+INFO 2026-04-23 10:14:46,190 log 35108 9500 "GET /students/ HTTP/1.1" 200 15869
+INFO 2026-04-23 10:14:46,341 log 35108 9500 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 10:14:46,345 log 35108 16356 "GET /api/students/?page=1 HTTP/1.1" 200 5479
+INFO 2026-04-23 10:14:46,763 log 35108 16356 "GET / HTTP/1.1" 200 14426
+INFO 2026-04-23 10:15:02,495 log 35108 16356 "GET / HTTP/1.1" 200 14426
+INFO 2026-04-23 10:15:03,992 log 35108 16356 "GET /students/ HTTP/1.1" 200 15869
+INFO 2026-04-23 10:15:04,138 log 35108 16356 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 10:15:04,143 log 35108 9500 "GET /api/students/?page=1 HTTP/1.1" 200 5479
+INFO 2026-04-23 10:15:26,464 log 35108 9500 "GET /checkin/ HTTP/1.1" 200 10024
+ERROR 2026-04-23 10:15:26,596 exceptions 35108 9500 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 409, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 10:15:26,598 log 35108 9500 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 10:15:26,599 log 35108 9500 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 10:15:26,812 log 35108 9500 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 2680
+INFO 2026-04-23 10:15:34,043 log 35108 9500 "GET / HTTP/1.1" 200 14426
+INFO 2026-04-23 10:15:38,590 log 35108 9500 "GET /students/ HTTP/1.1" 200 15869
+INFO 2026-04-23 10:15:38,724 log 35108 9500 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 10:15:38,725 log 35108 16356 "GET /api/students/?page=1 HTTP/1.1" 200 5479
+INFO 2026-04-23 10:15:48,479 log 35108 16356 "GET /checkin/ HTTP/1.1" 200 10024
+ERROR 2026-04-23 10:15:48,619 exceptions 35108 16356 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 409, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 10:15:48,622 log 35108 16356 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 10:15:48,623 log 35108 16356 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 10:15:48,853 log 35108 16356 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 2680
+INFO 2026-04-23 10:15:58,663 log 35108 16356 "GET /students/ HTTP/1.1" 200 15869
+INFO 2026-04-23 10:15:58,806 log 35108 16356 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 10:15:58,813 log 35108 9500 "GET /api/students/?page=1 HTTP/1.1" 200 5479
+WARNING 2026-04-23 10:16:00,456 log 35108 9500 Not Found: /admin/students/13/
+WARNING 2026-04-23 10:16:00,457 log 35108 9500 "GET /admin/students/13/ HTTP/1.1" 404 8600
+INFO 2026-04-23 10:16:02,434 log 35108 9500 "GET / HTTP/1.1" 200 14426
+INFO 2026-04-23 10:16:04,798 log 35108 9500 "GET /checkin/ HTTP/1.1" 200 10024
+ERROR 2026-04-23 10:16:04,933 exceptions 35108 9500 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 409, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 10:16:04,935 log 35108 9500 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 10:16:04,936 log 35108 9500 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 10:16:05,053 log 35108 9500 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 2680
+INFO 2026-04-23 10:16:08,730 log 35108 9500 "GET /students/ HTTP/1.1" 200 15869
+INFO 2026-04-23 10:16:08,866 log 35108 9500 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 10:16:08,873 log 35108 16356 "GET /api/students/?page=1 HTTP/1.1" 200 5479
+INFO 2026-04-23 10:16:12,200 log 35108 16356 "GET /students/ HTTP/1.1" 200 15869
+INFO 2026-04-23 10:16:12,344 log 35108 16356 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 10:16:12,350 log 35108 9500 "GET /api/students/?page=1 HTTP/1.1" 200 5479
+INFO 2026-04-23 10:16:14,209 log 35108 9500 "GET /checkin/ HTTP/1.1" 200 10024
+ERROR 2026-04-23 10:16:14,339 exceptions 35108 9500 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 409, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 10:16:14,342 log 35108 9500 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 10:16:14,343 log 35108 9500 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 10:16:14,453 log 35108 9500 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 2680
+INFO 2026-04-23 10:16:37,212 log 35108 40436 "GET /api/faqs/ HTTP/1.1" 200 52
+INFO 2026-04-23 10:16:37,212 log 35108 41512 "GET /api/announcements/ HTTP/1.1" 200 52
+ERROR 2026-04-23 10:16:37,223 exceptions 35108 34824 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 409, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 10:16:37,225 log 35108 34824 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 10:16:37,226 log 35108 34824 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 10:16:47,935 log 35108 34824 "GET /api/faqs/ HTTP/1.1" 200 52
+INFO 2026-04-23 10:47:29,072 log 35108 29444 "GET /students/ HTTP/1.1" 200 15869
+WARNING 2026-04-23 10:47:29,133 log 35108 37128 Not Found: /@vite/client
+WARNING 2026-04-23 10:47:29,134 log 35108 37128 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:47:29,259 log 35108 29444 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 10:47:29,264 log 35108 5484 "GET /api/students/?page=1 HTTP/1.1" 200 5479
+WARNING 2026-04-23 10:47:30,801 log 35108 5484 Not Found: /admin/students/16/
+WARNING 2026-04-23 10:47:30,801 log 35108 5484 "GET /admin/students/16/ HTTP/1.1" 404 8600
+WARNING 2026-04-23 10:47:30,825 log 35108 5484 Not Found: /@vite/client
+WARNING 2026-04-23 10:47:30,826 log 35108 5484 "GET /@vite/client HTTP/1.1" 404 3629
+WARNING 2026-04-23 10:47:32,022 log 35108 5484 Not Found: /@vite/client
+WARNING 2026-04-23 10:47:32,023 log 35108 5484 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:47:41,866 log 35108 5484 "GET /api/students/?page=1&search=2024015 HTTP/1.1" 200 594
+WARNING 2026-04-23 10:48:10,125 log 35108 5484 Forbidden: /api/students/
+WARNING 2026-04-23 10:48:10,126 log 35108 5484 "POST /api/students/ HTTP/1.1" 403 107
+INFO 2026-04-23 10:49:38,621 autoreload 32424 29740 D:\xinshen\welcome_app\serializers.py changed, reloading.
+INFO 2026-04-23 10:49:38,631 autoreload 35108 8484 D:\xinshen\welcome_app\serializers.py changed, reloading.
+INFO 2026-04-23 10:49:40,115 autoreload 22352 26244 Watching for file changes with StatReloader
+INFO 2026-04-23 10:50:09,790 log 39880 6344 "GET /students/ HTTP/1.1" 200 15983
+WARNING 2026-04-23 10:50:09,834 log 39880 6100 Not Found: /@vite/client
+WARNING 2026-04-23 10:50:09,835 log 39880 6100 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:50:09,974 log 39880 16524 "GET /api/students/?page=1 HTTP/1.1" 200 5479
+INFO 2026-04-23 10:50:10,040 log 39880 6344 "GET /api/colleges/ HTTP/1.1" 200 932
+WARNING 2026-04-23 10:50:42,278 log 39880 6344 Forbidden: /api/students/
+WARNING 2026-04-23 10:50:42,279 log 39880 6344 "POST /api/students/ HTTP/1.1" 403 107
+WARNING 2026-04-23 10:50:57,076 log 39880 6344 Forbidden: /api/students/
+WARNING 2026-04-23 10:50:57,077 log 39880 6344 "POST /api/students/ HTTP/1.1" 403 107
+INFO 2026-04-23 10:52:41,127 log 39880 6344 "GET /students/ HTTP/1.1" 200 16790
+WARNING 2026-04-23 10:52:41,363 log 39880 6100 Not Found: /@vite/client
+WARNING 2026-04-23 10:52:41,364 log 39880 6100 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:52:41,438 log 39880 6344 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 10:52:41,441 log 39880 16524 "GET /api/students/?page=1 HTTP/1.1" 200 5479
+INFO 2026-04-23 10:52:43,058 log 39880 16524 "GET /students/ HTTP/1.1" 200 16790
+INFO 2026-04-23 10:52:46,511 log 39880 16524 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 10:52:46,518 log 39880 6344 "GET /api/students/?page=1 HTTP/1.1" 200 5479
+WARNING 2026-04-23 10:52:50,459 log 39880 6344 Not Found: /@vite/client
+WARNING 2026-04-23 10:52:50,460 log 39880 6344 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:53:14,984 log 39880 6344 "POST /api/students/ HTTP/1.1" 201 176
+INFO 2026-04-23 10:53:15,097 log 39880 6344 "GET /api/students/?page=1 HTTP/1.1" 200 5429
+INFO 2026-04-23 10:53:19,633 log 39880 6344 "DELETE /api/students/17/ HTTP/1.1" 204 0
+INFO 2026-04-23 10:53:19,749 log 39880 6344 "GET /api/students/?page=1 HTTP/1.1" 200 5479
+WARNING 2026-04-23 10:53:22,192 log 39880 6344 Not Found: /@vite/client
+WARNING 2026-04-23 10:53:22,193 log 39880 6344 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:53:25,652 log 39880 6344 "GET / HTTP/1.1" 200 14553
+WARNING 2026-04-23 10:53:25,687 log 39880 6344 Not Found: /@vite/client
+WARNING 2026-04-23 10:53:25,688 log 39880 6344 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:55:40,669 log 39880 6344 "GET / HTTP/1.1" 200 14553
+WARNING 2026-04-23 10:55:40,844 log 39880 6344 Not Found: /@vite/client
+WARNING 2026-04-23 10:55:40,845 log 39880 6344 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:55:42,378 log 39880 6344 "GET / HTTP/1.1" 200 14553
+WARNING 2026-04-23 10:55:46,621 log 39880 6344 Not Found: /@vite/client
+WARNING 2026-04-23 10:55:46,622 log 39880 6344 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:56:46,934 log 39880 6344 "GET / HTTP/1.1" 200 14553
+WARNING 2026-04-23 10:56:47,301 log 39880 6344 Not Found: /@vite/client
+WARNING 2026-04-23 10:56:47,302 log 39880 6344 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:56:48,457 log 39880 6344 "GET / HTTP/1.1" 200 14553
+WARNING 2026-04-23 10:56:54,728 log 39880 6344 Not Found: /@vite/client
+WARNING 2026-04-23 10:56:54,729 log 39880 6344 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:57:21,387 log 39880 6344 "GET / HTTP/1.1" 200 14558
+WARNING 2026-04-23 10:57:28,263 log 39880 6344 Not Found: /@vite/client
+WARNING 2026-04-23 10:57:28,264 log 39880 6344 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:57:29,800 log 39880 6344 "GET /students/ HTTP/1.1" 200 16790
+WARNING 2026-04-23 10:57:29,840 log 39880 6100 Not Found: /@vite/client
+WARNING 2026-04-23 10:57:29,841 log 39880 6100 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:57:29,954 log 39880 6344 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 10:57:29,954 log 39880 16524 "GET /api/students/?page=1 HTTP/1.1" 200 5479
+WARNING 2026-04-23 10:57:35,843 log 39880 16524 Not Found: /@vite/client
+WARNING 2026-04-23 10:57:35,844 log 39880 16524 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:57:37,077 log 39880 16524 "GET /checkin/ HTTP/1.1" 200 10151
+WARNING 2026-04-23 10:57:37,113 log 39880 6344 Not Found: /@vite/client
+WARNING 2026-04-23 10:57:37,114 log 39880 6344 "GET /@vite/client HTTP/1.1" 404 3629
+ERROR 2026-04-23 10:57:37,219 exceptions 39880 16524 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 409, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 10:57:37,224 log 39880 16524 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 10:57:37,224 log 39880 16524 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 10:57:37,377 log 39880 16524 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 2680
+INFO 2026-04-23 10:58:33,594 autoreload 39880 23584 D:\xinshen\welcome_app\views.py changed, reloading.
+INFO 2026-04-23 10:58:33,911 autoreload 22352 26244 D:\xinshen\welcome_app\views.py changed, reloading.
+INFO 2026-04-23 10:58:34,700 autoreload 12724 21784 Watching for file changes with StatReloader
+INFO 2026-04-23 10:58:34,925 autoreload 20704 35572 Watching for file changes with StatReloader
+INFO 2026-04-23 10:59:07,591 log 12724 39328 "GET /checkin/ HTTP/1.1" 200 9844
+WARNING 2026-04-23 10:59:07,694 log 12724 39768 Not Found: /@vite/client
+WARNING 2026-04-23 10:59:07,695 log 12724 39768 "GET /@vite/client HTTP/1.1" 404 3629
+ERROR 2026-04-23 10:59:07,797 exceptions 12724 39328 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 413, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 10:59:07,800 log 12724 39328 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 10:59:07,801 log 12724 39328 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 10:59:07,915 log 12724 39328 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 2680
+INFO 2026-04-23 10:59:14,836 log 12724 39328 "GET /students/ HTTP/1.1" 200 16790
+WARNING 2026-04-23 10:59:14,871 log 12724 30908 Not Found: /@vite/client
+WARNING 2026-04-23 10:59:14,872 log 12724 30908 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 10:59:14,971 log 12724 39768 "GET /api/students/?page=1 HTTP/1.1" 200 5479
+INFO 2026-04-23 10:59:15,061 log 12724 39328 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 10:59:20,482 log 12724 39328 "GET /checkin/ HTTP/1.1" 200 9844
+WARNING 2026-04-23 10:59:20,513 log 12724 39768 Not Found: /@vite/client
+WARNING 2026-04-23 10:59:20,514 log 12724 39768 "GET /@vite/client HTTP/1.1" 404 3629
+ERROR 2026-04-23 10:59:20,619 exceptions 12724 39328 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 413, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 10:59:20,621 log 12724 39328 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 10:59:20,621 log 12724 39328 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 10:59:20,741 log 12724 39328 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 2680
+WARNING 2026-04-23 10:59:28,088 log 12724 39328 Forbidden: /api/check-ins/verify_and_checkin/
+WARNING 2026-04-23 10:59:28,089 log 12724 39328 "POST /api/check-ins/verify_and_checkin/ HTTP/1.1" 403 107
+WARNING 2026-04-23 10:59:31,210 log 12724 39328 Forbidden: /api/check-ins/verify_and_checkin/
+WARNING 2026-04-23 10:59:31,210 log 12724 39328 "POST /api/check-ins/verify_and_checkin/ HTTP/1.1" 403 107
+WARNING 2026-04-23 10:59:34,281 log 12724 39328 Forbidden: /api/check-ins/verify_and_checkin/
+WARNING 2026-04-23 10:59:34,282 log 12724 39328 "POST /api/check-ins/verify_and_checkin/ HTTP/1.1" 403 107
+WARNING 2026-04-23 10:59:36,399 log 12724 39328 Forbidden: /api/check-ins/verify_and_checkin/
+WARNING 2026-04-23 10:59:36,400 log 12724 39328 "POST /api/check-ins/verify_and_checkin/ HTTP/1.1" 403 107
+WARNING 2026-04-23 10:59:41,578 log 12724 39328 Forbidden: /api/check-ins/verify_and_checkin/
+WARNING 2026-04-23 10:59:41,579 log 12724 39328 "POST /api/check-ins/verify_and_checkin/ HTTP/1.1" 403 107
+WARNING 2026-04-23 10:59:41,939 log 12724 39328 Forbidden: /api/check-ins/verify_and_checkin/
+WARNING 2026-04-23 10:59:41,940 log 12724 39328 "POST /api/check-ins/verify_and_checkin/ HTTP/1.1" 403 107
+INFO 2026-04-23 11:01:29,642 log 12724 39328 "GET /checkin/ HTTP/1.1" 200 10422
+WARNING 2026-04-23 11:01:29,944 log 12724 39768 Not Found: /@vite/client
+WARNING 2026-04-23 11:01:29,946 log 12724 39768 "GET /@vite/client HTTP/1.1" 404 3629
+ERROR 2026-04-23 11:01:30,050 exceptions 12724 39328 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 413, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 11:01:30,053 log 12724 39328 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 11:01:30,053 log 12724 39328 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 11:01:30,168 log 12724 39328 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 2680
+INFO 2026-04-23 11:01:31,006 log 12724 39328 "GET /checkin/ HTTP/1.1" 200 10422
+ERROR 2026-04-23 11:01:31,916 exceptions 12724 36364 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 413, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 11:01:31,919 log 12724 36364 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 11:01:31,919 log 12724 36364 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 11:01:32,033 log 12724 36364 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 2680
+WARNING 2026-04-23 11:01:32,470 log 12724 36364 Not Found: /@vite/client
+WARNING 2026-04-23 11:01:32,471 log 12724 36364 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 11:01:36,978 log 12724 36364 "POST /api/check-ins/verify_and_checkin/ HTTP/1.1" 200 829
+INFO 2026-04-23 11:01:41,210 log 12724 36364 "GET /checkin/ HTTP/1.1" 200 10422
+ERROR 2026-04-23 11:01:41,782 exceptions 12724 36364 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 413, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 11:01:41,785 log 12724 36364 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 11:01:41,786 log 12724 36364 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 11:01:41,904 log 12724 36364 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 2669
+WARNING 2026-04-23 11:01:41,934 log 12724 36364 Not Found: /@vite/client
+WARNING 2026-04-23 11:01:41,935 log 12724 36364 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 11:01:46,733 log 12724 36364 "GET / HTTP/1.1" 200 14559
+WARNING 2026-04-23 11:01:46,771 log 12724 36364 Not Found: /@vite/client
+WARNING 2026-04-23 11:01:46,772 log 12724 36364 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 11:01:58,363 log 12724 36364 "GET /students/ HTTP/1.1" 200 16790
+WARNING 2026-04-23 11:01:58,400 log 12724 34504 Not Found: /@vite/client
+WARNING 2026-04-23 11:01:58,401 log 12724 34504 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 11:01:58,509 log 12724 36364 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 11:01:58,515 log 12724 31556 "GET /api/students/?page=1 HTTP/1.1" 200 5512
+INFO 2026-04-23 11:02:04,760 log 12724 31556 "DELETE /api/students/16/ HTTP/1.1" 204 0
+INFO 2026-04-23 11:02:04,879 log 12724 31556 "GET /api/students/?page=1 HTTP/1.1" 200 5512
+INFO 2026-04-23 11:02:08,934 log 12724 31556 "DELETE /api/students/15/ HTTP/1.1" 204 0
+INFO 2026-04-23 11:02:09,168 log 12724 31556 "GET /api/students/?page=1 HTTP/1.1" 200 5486
+INFO 2026-04-23 11:02:30,664 log 12724 31556 "DELETE /api/students/14/ HTTP/1.1" 204 0
+INFO 2026-04-23 11:02:30,775 log 12724 31556 "GET /api/students/?page=1 HTTP/1.1" 200 5475
+INFO 2026-04-23 11:04:07,641 log 12724 31556 "GET /checkin/ HTTP/1.1" 200 10421
+WARNING 2026-04-23 11:04:07,791 log 12724 36364 Not Found: /@vite/client
+WARNING 2026-04-23 11:04:07,792 log 12724 36364 "GET /@vite/client HTTP/1.1" 404 3629
+ERROR 2026-04-23 11:04:07,836 exceptions 12724 31556 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 413, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 11:04:07,838 log 12724 31556 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 11:04:07,839 log 12724 31556 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 11:04:08,040 log 12724 31556 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 2345
+INFO 2026-04-23 11:04:12,128 log 12724 31556 "GET /checkin/ HTTP/1.1" 200 10421
+WARNING 2026-04-23 11:04:12,159 log 12724 36364 Not Found: /@vite/client
+WARNING 2026-04-23 11:04:12,160 log 12724 36364 "GET /@vite/client HTTP/1.1" 404 3629
+ERROR 2026-04-23 11:04:12,265 exceptions 12724 31556 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 413, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 11:04:12,267 log 12724 31556 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 11:04:12,267 log 12724 31556 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 11:04:12,371 log 12724 31556 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 2345
+INFO 2026-04-23 11:04:13,789 log 12724 31556 "GET /students/ HTTP/1.1" 200 16883
+WARNING 2026-04-23 11:04:13,827 log 12724 34504 Not Found: /@vite/client
+WARNING 2026-04-23 11:04:13,827 log 12724 34504 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 11:04:13,929 log 12724 31556 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 11:04:13,937 log 12724 36364 "GET /api/students/?page=1 HTTP/1.1" 200 5475
+INFO 2026-04-23 11:04:15,491 log 12724 36364 "DELETE /api/students/13/ HTTP/1.1" 204 0
+INFO 2026-04-23 11:04:15,675 log 12724 36364 "GET /api/students/?page=1 HTTP/1.1" 200 5475
+INFO 2026-04-23 11:04:18,334 log 12724 36364 "DELETE /api/students/12/ HTTP/1.1" 204 0
+INFO 2026-04-23 11:04:18,451 log 12724 36364 "GET /api/students/?page=1 HTTP/1.1" 200 5451
+INFO 2026-04-23 11:04:21,010 log 12724 36364 "DELETE /api/students/11/ HTTP/1.1" 204 0
+INFO 2026-04-23 11:04:21,123 log 12724 36364 "GET /api/students/?page=1 HTTP/1.1" 200 5324
+INFO 2026-04-23 11:04:24,457 log 12724 36364 "DELETE /api/students/10/ HTTP/1.1" 204 0
+INFO 2026-04-23 11:04:24,582 log 12724 36364 "GET /api/students/?page=1 HTTP/1.1" 200 4806
+INFO 2026-04-23 11:05:29,110 autoreload 31724 8396 Watching for file changes with StatReloader
+INFO 2026-04-23 11:05:34,886 log 12724 36364 "GET /students/ HTTP/1.1" 200 16883
+INFO 2026-04-23 11:06:11,834 log 12724 36364 "GET /checkin/ HTTP/1.1" 200 10421
+INFO 2026-04-23 11:06:13,823 log 12724 36364 "GET /checkin/ HTTP/1.1" 200 10421
+INFO 2026-04-23 11:06:14,991 log 12724 36364 "GET /checkin/ HTTP/1.1" 200 10421
+WARNING 2026-04-23 11:06:17,715 log 12724 31556 Not Found: /@vite/client
+WARNING 2026-04-23 11:06:17,716 log 12724 31556 "GET /@vite/client HTTP/1.1" 404 3629
+ERROR 2026-04-23 11:06:17,824 exceptions 12724 36364 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 413, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 11:06:17,826 log 12724 36364 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 11:06:17,826 log 12724 36364 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 11:06:17,934 log 12724 36364 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 1843
+INFO 2026-04-23 11:06:23,475 log 12724 36364 "GET /checkin/ HTTP/1.1" 200 10421
+INFO 2026-04-23 11:07:01,641 log 12724 36364 "GET /checkin/ HTTP/1.1" 200 10421
+WARNING 2026-04-23 11:07:05,890 log 12724 31556 Not Found: /@vite/client
+WARNING 2026-04-23 11:07:05,891 log 12724 31556 "GET /@vite/client HTTP/1.1" 404 3629
+ERROR 2026-04-23 11:07:06,011 exceptions 12724 36364 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 413, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 11:07:06,014 log 12724 36364 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 11:07:06,015 log 12724 36364 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 11:07:06,220 log 12724 36364 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 1843
+INFO 2026-04-23 11:07:13,421 autoreload 12724 21784 D:\xinshen\welcome_app\serializers.py changed, reloading.
+INFO 2026-04-23 11:07:13,453 autoreload 31724 8396 D:\xinshen\welcome_app\serializers.py changed, reloading.
+INFO 2026-04-23 11:07:13,953 autoreload 20704 35572 D:\xinshen\welcome_app\wechat_urls.py changed, reloading.
+INFO 2026-04-23 11:07:14,631 autoreload 29740 35712 Watching for file changes with StatReloader
+INFO 2026-04-23 11:07:14,642 autoreload 32956 676 Watching for file changes with StatReloader
+INFO 2026-04-23 11:07:15,099 autoreload 22228 31824 Watching for file changes with StatReloader
+INFO 2026-04-23 11:07:20,987 log 29740 2196 "GET /checkin/ HTTP/1.1" 200 9843
+INFO 2026-04-23 11:07:58,279 log 29740 35408 "GET / HTTP/1.1" 200 12752
+INFO 2026-04-23 11:07:59,488 log 29740 35408 "GET / HTTP/1.1" 200 12752
+INFO 2026-04-23 11:08:03,126 log 29740 35408 "GET /checkin/ HTTP/1.1" 200 9843
+WARNING 2026-04-23 11:08:03,464 log 29740 3528 Not Found: /@vite/client
+WARNING 2026-04-23 11:08:03,465 log 29740 3528 "GET /@vite/client HTTP/1.1" 404 3629
+ERROR 2026-04-23 11:08:03,576 exceptions 29740 35408 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 413, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 11:08:03,581 log 29740 35408 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 11:08:03,582 log 29740 35408 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 11:08:03,717 log 29740 35408 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 1843
+INFO 2026-04-23 11:08:17,879 log 29740 22684 "GET /checkin/ HTTP/1.1" 200 9843
+ERROR 2026-04-23 11:08:18,025 exceptions 29740 22684 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 413, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 11:08:18,028 log 29740 22684 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 11:08:18,028 log 29740 22684 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 11:08:18,224 log 29740 22684 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 1843
+INFO 2026-04-23 11:08:20,679 log 29740 22684 "GET /checkin/ HTTP/1.1" 200 9843
+ERROR 2026-04-23 11:08:20,804 exceptions 29740 22684 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 413, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 11:08:20,806 log 29740 22684 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 11:08:20,807 log 29740 22684 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 11:08:20,916 log 29740 22684 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 1843
+INFO 2026-04-23 11:08:22,714 log 29740 22684 "GET / HTTP/1.1" 200 12752
+INFO 2026-04-23 11:08:26,947 log 29740 22684 "GET /students/ HTTP/1.1" 200 16790
+INFO 2026-04-23 11:08:27,081 log 29740 22684 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 11:08:27,088 log 29740 22868 "GET /api/students/?page=1 HTTP/1.1" 200 4806
+INFO 2026-04-23 11:08:34,341 log 29740 22868 "DELETE /api/students/1/ HTTP/1.1" 204 0
+INFO 2026-04-23 11:08:35,288 log 29740 22868 "GET /api/students/?page=1 HTTP/1.1" 200 4373
+INFO 2026-04-23 11:08:54,102 log 29740 10260 "GET /checkin/ HTTP/1.1" 200 9843
+INFO 2026-04-23 13:54:31,972 autoreload 31628 24076 Watching for file changes with StatReloader
+INFO 2026-04-23 13:54:35,464 log 31628 35688 "GET /checkin/ HTTP/1.1" 200 9843
+WARNING 2026-04-23 13:54:36,788 log 31628 29308 Not Found: /@vite/client
+WARNING 2026-04-23 13:54:36,789 log 31628 29308 "GET /@vite/client HTTP/1.1" 404 3629
+ERROR 2026-04-23 13:54:36,895 exceptions 31628 35688 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 413, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 13:54:36,900 log 31628 35688 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 13:54:36,901 log 31628 35688 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 13:54:36,998 log 31628 35688 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 1843
+INFO 2026-04-23 13:54:43,235 log 31628 35688 "GET / HTTP/1.1" 200 12551
+WARNING 2026-04-23 13:54:43,481 log 31628 35688 Not Found: /@vite/client
+WARNING 2026-04-23 13:54:43,482 log 31628 35688 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 14:03:44,177 log 31628 34520 "GET / HTTP/1.1" 200 12551
+WARNING 2026-04-23 14:03:44,282 log 31628 34520 Not Found: /favicon.ico
+WARNING 2026-04-23 14:03:44,283 log 31628 34520 "GET /favicon.ico HTTP/1.1" 404 3626
+INFO 2026-04-23 14:03:46,093 log 31628 34520 "GET / HTTP/1.1" 200 12551
+INFO 2026-04-23 14:05:52,725 log 31628 34520 "GET /students/ HTTP/1.1" 200 16790
+INFO 2026-04-23 14:05:52,840 log 31628 34520 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 14:05:52,943 log 31628 34520 "GET /api/students/?page=1 HTTP/1.1" 200 4373
+INFO 2026-04-23 14:05:58,989 log 31628 34520 "GET /checkin/ HTTP/1.1" 200 9843
+ERROR 2026-04-23 14:05:59,108 exceptions 31628 34520 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 413, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 14:05:59,110 log 31628 34520 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 14:05:59,111 log 31628 34520 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 14:05:59,229 log 31628 34520 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 1843
+INFO 2026-04-23 14:06:02,208 log 31628 34520 "GET /students/ HTTP/1.1" 200 16790
+INFO 2026-04-23 14:06:02,338 log 31628 34520 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 14:06:02,346 log 31628 33512 "GET /api/students/?page=1 HTTP/1.1" 200 4373
+INFO 2026-04-23 14:06:05,741 log 31628 33512 "GET /checkin/ HTTP/1.1" 200 9843
+ERROR 2026-04-23 14:06:05,873 exceptions 31628 33512 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 413, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 14:06:05,876 log 31628 33512 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 14:06:05,877 log 31628 33512 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 14:06:05,983 log 31628 33512 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 1843
+WARNING 2026-04-23 14:06:17,424 log 31628 33512 Forbidden: /api/check-ins/verify_and_checkin/
+WARNING 2026-04-23 14:06:17,425 log 31628 33512 "POST /api/check-ins/verify_and_checkin/ HTTP/1.1" 403 107
+INFO 2026-04-23 14:07:19,314 log 31628 33512 "GET /checkin/ HTTP/1.1" 200 10421
+ERROR 2026-04-23 14:07:19,445 exceptions 31628 33512 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 413, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 14:07:19,448 log 31628 33512 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 14:07:19,448 log 31628 33512 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 14:07:19,657 log 31628 33512 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 1843
+INFO 2026-04-23 14:07:23,226 log 31628 33512 "POST /api/check-ins/verify_and_checkin/ HTTP/1.1" 200 828
+INFO 2026-04-23 14:07:26,518 log 31628 33512 "GET /checkin/ HTTP/1.1" 200 10422
+ERROR 2026-04-23 14:07:26,641 exceptions 31628 33512 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 413, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 14:07:26,643 log 31628 33512 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 14:07:26,643 log 31628 33512 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 14:07:26,754 log 31628 33512 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 2087
+INFO 2026-04-23 14:07:29,259 log 31628 33512 "GET / HTTP/1.1" 200 12924
+INFO 2026-04-23 14:08:30,608 log 31628 33512 "GET /checkin/ HTTP/1.1" 200 10422
+ERROR 2026-04-23 14:08:30,739 exceptions 31628 33512 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 413, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 14:08:30,741 log 31628 33512 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 14:08:30,742 log 31628 33512 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 14:08:30,846 log 31628 33512 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 2087
+INFO 2026-04-23 14:08:31,724 log 31628 33512 "GET /students/ HTTP/1.1" 200 16790
+INFO 2026-04-23 14:08:31,863 log 31628 34520 "GET /api/students/?page=1 HTTP/1.1" 200 4406
+INFO 2026-04-23 14:08:31,863 log 31628 33512 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 14:08:34,245 log 31628 33512 "GET /admin/ HTTP/1.1" 200 8017
+INFO 2026-04-23 14:08:35,138 log 31628 33512 "GET /students/ HTTP/1.1" 200 16790
+INFO 2026-04-23 14:08:35,274 log 31628 33512 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 14:08:35,283 log 31628 34520 "GET /api/students/?page=1 HTTP/1.1" 200 4406
+INFO 2026-04-23 14:08:36,801 log 31628 34520 "GET /checkin/ HTTP/1.1" 200 10422
+ERROR 2026-04-23 14:08:36,924 exceptions 31628 34520 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 413, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 14:08:36,926 log 31628 34520 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 14:08:36,927 log 31628 34520 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 14:08:37,027 log 31628 34520 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 2087
+INFO 2026-04-23 14:08:37,541 log 31628 34520 "GET / HTTP/1.1" 200 12924
+INFO 2026-04-23 14:09:31,132 log 31628 34520 "GET / HTTP/1.1" 200 12924
+INFO 2026-04-23 14:10:43,104 log 31628 34520 "GET / HTTP/1.1" 200 12924
+INFO 2026-04-23 14:28:07,834 log 31628 38324 "GET /admin/welcome_app/student/add/ HTTP/1.1" 200 28421
+INFO 2026-04-23 14:28:07,927 log 31628 39976 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2026-04-23 14:28:07,929 log 31628 39976 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2026-04-23 14:28:07,932 log 31628 39976 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2026-04-23 14:28:07,934 log 31628 39976 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2026-04-23 14:28:08,049 log 31628 20040 "GET /admin/jsi18n/ HTTP/1.1" 200 8869
+INFO 2026-04-23 14:28:08,090 log 31628 38324 "GET /static/admin/css/forms.css HTTP/1.1" 200 8831
+INFO 2026-04-23 14:28:08,093 log 31628 38324 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2026-04-23 14:28:08,096 log 31628 38324 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2026-04-23 14:28:08,100 log 31628 38324 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11811
+INFO 2026-04-23 14:28:08,103 log 31628 38324 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19698
+INFO 2026-04-23 14:28:08,106 log 31628 38324 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2026-04-23 14:28:08,109 log 31628 38324 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2026-04-23 14:28:08,112 log 31628 38324 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2026-04-23 14:28:08,116 log 31628 38324 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2026-04-23 14:28:08,118 log 31628 38324 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2026-04-23 14:28:08,125 log 31628 38324 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2026-04-23 14:28:08,128 log 31628 38324 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2026-04-23 14:28:08,222 log 31628 39976 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2026-04-23 14:28:08,263 log 31628 39976 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2026-04-23 14:28:08,281 log 31628 39976 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 978
+INFO 2026-04-23 14:28:08,285 log 31628 39976 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 593
+INFO 2026-04-23 14:28:08,289 log 31628 39976 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 928
+INFO 2026-04-23 14:28:08,293 log 31628 39976 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2026-04-23 14:28:08,330 log 31628 20040 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9159
+INFO 2026-04-23 14:28:08,416 log 31628 20040 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1112
+INFO 2026-04-23 14:28:08,416 log 31628 39976 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 805
+INFO 2026-04-23 14:28:15,724 log 31628 39976 "GET /admin/welcome_app/major/add/ HTTP/1.1" 200 17491
+INFO 2026-04-23 14:28:15,821 log 31628 39976 "GET /admin/jsi18n/ HTTP/1.1" 200 8869
+INFO 2026-04-23 14:28:20,699 log 31628 39976 "GET /admin/welcome_app/announcement/add/ HTTP/1.1" 200 23966
+INFO 2026-04-23 14:28:20,802 log 31628 39976 "GET /admin/jsi18n/ HTTP/1.1" 200 8869
+INFO 2026-04-23 14:28:22,798 log 31628 39976 "GET /admin/welcome_app/student/add/ HTTP/1.1" 200 28421
+INFO 2026-04-23 14:28:22,902 log 31628 39976 "GET /admin/jsi18n/ HTTP/1.1" 200 8869
+INFO 2026-04-23 14:28:23,551 log 31628 39976 "GET /admin/welcome_app/college/add/ HTTP/1.1" 200 15534
+INFO 2026-04-23 14:28:23,655 log 31628 39976 "GET /admin/jsi18n/ HTTP/1.1" 200 8869
+INFO 2026-04-23 14:28:24,577 log 31628 39976 "GET /admin/welcome_app/student/add/ HTTP/1.1" 200 28421
+INFO 2026-04-23 14:28:25,125 log 31628 39976 "GET /admin/welcome_app/announcement/add/ HTTP/1.1" 200 23966
+INFO 2026-04-23 14:28:25,556 log 31628 39976 "GET /admin/welcome_app/major/add/ HTTP/1.1" 200 17491
+INFO 2026-04-23 14:28:26,061 log 31628 39976 "GET /admin/welcome_app/student/add/ HTTP/1.1" 200 28421
+INFO 2026-04-23 14:28:29,197 log 31628 39976 "GET /admin/welcome_app/announcement/add/ HTTP/1.1" 200 23966
+INFO 2026-04-23 14:28:29,303 log 31628 39976 "GET /admin/jsi18n/ HTTP/1.1" 200 8869
+INFO 2026-04-23 14:29:28,486 log 31628 39976 "GET /students/ HTTP/1.1" 200 16790
+INFO 2026-04-23 14:29:28,612 log 31628 39976 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 14:29:28,615 log 31628 20040 "GET /api/students/?page=1 HTTP/1.1" 200 4406
+INFO 2026-04-23 14:29:32,533 log 31628 20040 "GET /admin/ HTTP/1.1" 200 8017
+INFO 2026-04-23 14:29:37,290 log 31628 20040 "GET /admin/ HTTP/1.1" 200 8017
+INFO 2026-04-23 14:30:54,600 log 31628 12392 "GET /admin/ HTTP/1.1" 200 8017
+WARNING 2026-04-23 14:30:54,645 log 31628 12392 Not Found: /@vite/client
+WARNING 2026-04-23 14:30:54,646 log 31628 12392 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 14:34:25,076 log 31628 12392 "GET /admin/ HTTP/1.1" 200 8017
+WARNING 2026-04-23 14:34:25,361 log 31628 12392 Not Found: /@vite/client
+WARNING 2026-04-23 14:34:25,361 log 31628 12392 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 14:44:25,982 log 31628 31852 "GET /admin/ HTTP/1.1" 200 8017
+WARNING 2026-04-23 14:44:26,170 log 31628 31852 Not Found: /@vite/client
+WARNING 2026-04-23 14:44:26,171 log 31628 31852 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 14:44:28,158 log 31628 31852 "GET /admin/ HTTP/1.1" 200 8017
+WARNING 2026-04-23 14:44:29,543 log 31628 31852 Not Found: /@vite/client
+WARNING 2026-04-23 14:44:29,543 log 31628 31852 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 14:44:32,023 log 31628 31852 "GET /admin/ HTTP/1.1" 200 8017
+WARNING 2026-04-23 14:44:32,048 log 31628 31852 Not Found: /@vite/client
+WARNING 2026-04-23 14:44:32,049 log 31628 31852 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 14:44:48,054 log 31628 40420 "GET /admin/login/ HTTP/1.1" 200 4081
+INFO 2026-04-23 14:44:48,089 log 31628 25896 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 3538
+INFO 2026-04-23 14:44:48,091 log 31628 40420 "GET /static/admin/css/base.css HTTP/1.1" 200 23100
+INFO 2026-04-23 14:44:48,114 log 31628 25896 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-04-23 14:44:48,114 log 31628 33888 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-04-23 14:44:48,115 log 31628 23388 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16273
+INFO 2026-04-23 14:44:48,116 log 31628 40420 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-04-23 14:44:48,132 log 31628 23388 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+WARNING 2026-04-23 14:44:48,189 log 31628 23388 Not Found: /favicon.ico
+WARNING 2026-04-23 14:44:48,190 log 31628 23388 "GET /favicon.ico HTTP/1.1" 404 3626
+INFO 2026-04-23 14:45:34,893 log 31628 23388 "POST /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 14:45:34,997 log 31628 23388 "GET /admin/ HTTP/1.1" 200 8017
+INFO 2026-04-23 14:45:39,862 log 31628 23388 "GET / HTTP/1.1" 200 12924
+INFO 2026-04-23 14:46:27,533 log 31628 23388 "GET /admin/ HTTP/1.1" 200 8017
+INFO 2026-04-23 14:46:28,804 log 31628 23388 "GET /admin/welcome_app/student/add/ HTTP/1.1" 200 28421
+INFO 2026-04-23 14:46:28,817 log 31628 23388 "GET /static/admin/css/forms.css HTTP/1.1" 200 8831
+INFO 2026-04-23 14:46:28,818 log 31628 40584 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2026-04-23 14:46:28,819 log 31628 33888 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9159
+INFO 2026-04-23 14:46:28,820 log 31628 23012 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19698
+INFO 2026-04-23 14:46:28,821 log 31628 23388 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2026-04-23 14:46:28,823 log 31628 33888 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11811
+INFO 2026-04-23 14:46:28,823 log 31628 40584 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2026-04-23 14:46:28,824 log 31628 23012 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2026-04-23 14:46:28,826 log 31628 33888 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2026-04-23 14:46:28,826 log 31628 23388 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2026-04-23 14:46:28,828 log 31628 40584 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2026-04-23 14:46:28,828 log 31628 25896 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2026-04-23 14:46:28,832 log 31628 23012 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2026-04-23 14:46:28,837 log 31628 23012 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 978
+INFO 2026-04-23 14:46:28,841 log 31628 23012 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 593
+INFO 2026-04-23 14:46:28,844 log 31628 23012 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 928
+INFO 2026-04-23 14:46:28,847 log 31628 23012 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2026-04-23 14:46:28,912 log 31628 40420 "GET /admin/jsi18n/ HTTP/1.1" 200 8869
+INFO 2026-04-23 14:46:28,964 log 31628 23012 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 805
+INFO 2026-04-23 14:46:28,964 log 31628 40420 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1112
+INFO 2026-04-23 14:46:32,341 log 31628 40420 "GET /admin/ HTTP/1.1" 200 8017
+INFO 2026-04-23 14:46:34,487 log 31628 40420 "GET /admin/ HTTP/1.1" 200 8017
+INFO 2026-04-23 14:48:51,021 log 31628 31852 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 14:48:51,128 log 31628 31852 "GET /admin/ HTTP/1.1" 200 8017
+WARNING 2026-04-23 14:48:51,157 log 31628 31852 Not Found: /@vite/client
+WARNING 2026-04-23 14:48:51,158 log 31628 31852 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 14:49:07,757 log 31628 31852 "GET / HTTP/1.1" 200 12924
+WARNING 2026-04-23 14:49:07,793 log 31628 31852 Not Found: /@vite/client
+WARNING 2026-04-23 14:49:07,794 log 31628 31852 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 14:49:08,981 log 31628 31852 "GET / HTTP/1.1" 200 12924
+WARNING 2026-04-23 14:49:09,009 log 31628 31852 Not Found: /@vite/client
+WARNING 2026-04-23 14:49:09,010 log 31628 31852 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 14:49:12,230 log 31628 31852 "GET /admin/ HTTP/1.1" 200 8017
+WARNING 2026-04-23 14:49:12,254 log 31628 31852 Not Found: /@vite/client
+WARNING 2026-04-23 14:49:12,254 log 31628 31852 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:04:48,503 log 31628 29960 "GET /admin/ HTTP/1.1" 200 8017
+WARNING 2026-04-23 15:04:49,890 log 31628 29960 Not Found: /@vite/client
+WARNING 2026-04-23 15:04:49,890 log 31628 29960 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:04:58,398 log 31628 29960 "GET /admin/welcome_app/student/add/ HTTP/1.1" 200 28421
+INFO 2026-04-23 15:04:58,410 log 31628 29960 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,413 log 31628 2680 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,413 log 31628 29888 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,413 log 31628 41516 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,414 log 31628 39364 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,415 log 31628 29960 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,417 log 31628 2680 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,418 log 31628 39364 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,419 log 31628 41516 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,419 log 31628 29888 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,419 log 31628 29960 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,420 log 31628 2680 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,422 log 31628 39364 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,423 log 31628 41516 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,423 log 31628 29960 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,423 log 31628 29888 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,424 log 31628 2680 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,430 log 31628 2680 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,434 log 31628 2680 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,438 log 31628 2680 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,442 log 31628 2680 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,446 log 31628 2680 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,449 log 31628 2680 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,512 log 31628 34396 "GET /admin/jsi18n/ HTTP/1.1" 200 8869
+INFO 2026-04-23 15:04:58,775 log 31628 34396 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2026-04-23 15:04:58,775 log 31628 2680 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+WARNING 2026-04-23 15:04:58,792 log 31628 2680 Not Found: /@vite/client
+WARNING 2026-04-23 15:04:58,792 log 31628 2680 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:05:06,662 log 31628 2680 "GET /admin/ HTTP/1.1" 200 8017
+WARNING 2026-04-23 15:05:06,695 log 31628 2680 Not Found: /@vite/client
+WARNING 2026-04-23 15:05:06,696 log 31628 2680 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:05:08,270 log 31628 2680 "GET /admin/welcome_app/announcement/add/ HTTP/1.1" 200 23966
+INFO 2026-04-23 15:05:08,383 log 31628 2680 "GET /admin/jsi18n/ HTTP/1.1" 200 8869
+WARNING 2026-04-23 15:05:08,442 log 31628 2680 Not Found: /@vite/client
+WARNING 2026-04-23 15:05:08,443 log 31628 2680 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:05:12,141 log 31628 2680 "GET /admin/ HTTP/1.1" 200 8017
+WARNING 2026-04-23 15:05:12,179 log 31628 2680 Not Found: /@vite/client
+WARNING 2026-04-23 15:05:12,179 log 31628 2680 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:05:17,827 log 31628 2680 "GET /admin/ HTTP/1.1" 200 8017
+WARNING 2026-04-23 15:05:17,997 log 31628 2680 Not Found: /@vite/client
+WARNING 2026-04-23 15:05:17,998 log 31628 2680 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:05:23,835 log 31628 29096 "GET /admin/ HTTP/1.1" 200 8017
+WARNING 2026-04-23 15:05:23,870 log 31628 29096 Not Found: /@vite/client
+WARNING 2026-04-23 15:05:23,870 log 31628 29096 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:06:07,151 autoreload 31628 24076 D:\xinshen\welcome_app\views.py changed, reloading.
+INFO 2026-04-23 15:06:08,456 autoreload 30368 39256 Watching for file changes with StatReloader
+INFO 2026-04-23 15:13:22,336 log 30368 21108 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:13:22,392 log 30368 21108 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4094
+INFO 2026-04-23 15:13:53,913 basehttp 30368 21108 - Broken pipe from ('127.0.0.1', 52697)
+INFO 2026-04-23 15:16:15,701 log 30368 7776 "GET /admin/ HTTP/1.1" 200 8017
+WARNING 2026-04-23 15:16:16,283 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:16:16,284 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:17:31,784 log 30368 41028 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:17:33,317 log 30368 41028 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:17:33,418 log 30368 41028 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:17:34,072 log 30368 41028 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:17:34,167 log 30368 41028 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:17:34,616 log 30368 41028 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:17:34,723 log 30368 41028 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:17:35,170 log 30368 41028 "GET /students/ HTTP/1.1" 200 16796
+INFO 2026-04-23 15:17:35,316 log 30368 41028 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 15:17:35,320 log 30368 29836 "GET /api/students/?page=1 HTTP/1.1" 200 4406
+INFO 2026-04-23 15:17:36,012 log 30368 29836 "GET /checkin/ HTTP/1.1" 200 10428
+ERROR 2026-04-23 15:17:36,152 exceptions 30368 29836 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 413, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 15:17:36,157 log 30368 29836 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 15:17:36,158 log 30368 29836 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 15:17:36,269 log 30368 29836 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 2087
+INFO 2026-04-23 15:17:37,084 log 30368 29836 "GET / HTTP/1.1" 200 12930
+INFO 2026-04-23 15:17:38,167 log 30368 29836 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:17:38,268 log 30368 29836 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:17:39,270 log 30368 29836 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:17:39,370 log 30368 29836 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:17:39,881 log 30368 29836 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:17:39,977 log 30368 29836 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:17:40,232 log 30368 29836 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:17:40,336 log 30368 29836 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:17:51,280 log 30368 29836 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:17:52,351 log 30368 29836 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:17:52,453 log 30368 29836 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:18:51,488 log 30368 7776 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:18:51,587 log 30368 7776 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:18:51,628 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:18:51,629 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:18:52,867 log 30368 7776 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:18:52,963 log 30368 7776 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:18:52,990 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:18:52,990 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:18:53,867 log 30368 7776 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:18:53,963 log 30368 7776 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:18:53,989 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:18:53,990 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:18:56,530 log 30368 7776 "GET / HTTP/1.1" 200 12930
+WARNING 2026-04-23 15:18:56,564 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:18:56,565 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:18:57,882 log 30368 7776 "GET / HTTP/1.1" 200 12930
+WARNING 2026-04-23 15:18:57,913 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:18:57,914 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:18:58,556 log 30368 7776 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:18:58,652 log 30368 7776 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:18:58,679 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:18:58,679 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:18:59,491 log 30368 7776 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:18:59,588 log 30368 7776 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:18:59,613 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:18:59,614 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:18:59,929 log 30368 7776 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:19:00,028 log 30368 7776 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:19:00,060 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:19:00,060 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:19:00,779 log 30368 7776 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:19:00,877 log 30368 7776 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:19:00,904 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:19:00,905 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:19:01,344 log 30368 7776 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:19:01,444 log 30368 7776 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:19:01,471 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:19:01,472 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:19:01,952 log 30368 7776 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:19:02,050 log 30368 7776 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:19:02,077 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:19:02,077 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:19:02,238 log 30368 7776 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:19:02,335 log 30368 7776 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:19:02,361 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:19:02,362 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:19:02,925 log 30368 7776 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:19:03,021 log 30368 7776 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:19:03,047 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:19:03,048 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:19:03,402 log 30368 7776 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:19:03,937 log 30368 7776 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:19:04,014 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:19:04,015 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:20:20,914 autoreload 30356 29104 Watching for file changes with StatReloader
+INFO 2026-04-23 15:20:25,789 log 30368 7776 "GET / HTTP/1.1" 200 12930
+WARNING 2026-04-23 15:20:25,913 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:20:25,914 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:20:26,809 log 30368 7776 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:20:26,910 log 30368 7776 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:20:26,937 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:20:26,937 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:20:27,588 log 30368 7776 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:20:27,793 log 30368 7776 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:20:27,822 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:20:27,823 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:20:28,647 log 30368 7776 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:20:28,843 log 30368 7776 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:20:28,871 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:20:28,872 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:21:15,257 log 30368 7776 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:21:15,376 log 30368 7776 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:21:15,403 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:21:15,403 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:21:17,186 log 30368 7776 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:21:17,281 log 30368 7776 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:21:17,307 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:21:17,307 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:21:18,057 log 30368 7776 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:21:18,155 log 30368 7776 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:21:18,183 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:21:18,183 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:21:18,996 log 30368 7776 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:21:19,093 log 30368 7776 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:21:19,122 log 30368 7776 Not Found: /@vite/client
+WARNING 2026-04-23 15:21:19,122 log 30368 7776 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:23:30,763 log 30368 33640 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:23:30,864 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:23:32,742 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:23:33,283 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:23:33,604 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:23:39,566 log 30368 33640 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:23:39,667 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:25:20,655 log 30368 33640 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-04-23 15:25:20,656 log 30368 33640 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3737
+INFO 2026-04-23 15:25:45,024 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:46,212 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:46,877 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:47,223 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:47,563 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:47,885 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:48,151 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:48,419 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:48,594 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:48,790 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:48,983 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:49,137 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:49,312 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:49,469 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:49,646 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:49,825 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:50,017 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:50,187 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:50,389 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:50,701 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:50,976 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:51,378 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:51,679 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:51,856 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:52,035 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:52,205 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:52,383 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:52,548 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:52,728 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:52,923 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:53,111 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:53,308 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:53,517 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:53,723 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:53,896 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:25:54,050 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:26:18,080 log 30368 33640 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-04-23 15:26:18,080 log 30368 33640 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3737
+INFO 2026-04-23 15:26:39,712 log 30368 33640 "GET /admin/welcome_app/student/add/ HTTP/1.1" 200 28421
+INFO 2026-04-23 15:26:39,925 log 30368 33640 "GET /admin/jsi18n/ HTTP/1.1" 200 8869
+INFO 2026-04-23 15:26:43,624 log 30368 33640 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:26:46,904 log 30368 33640 "GET /admin/welcome_app/announcement/add/ HTTP/1.1" 200 23966
+INFO 2026-04-23 15:26:47,012 log 30368 33640 "GET /admin/jsi18n/ HTTP/1.1" 200 8869
+INFO 2026-04-23 15:26:48,432 log 30368 33640 "GET /admin/welcome_app/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:26:50,305 log 30368 33640 "GET /students/ HTTP/1.1" 200 16796
+INFO 2026-04-23 15:26:50,441 log 30368 33640 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 15:26:50,448 log 30368 15596 "GET /api/students/?page=1 HTTP/1.1" 200 4406
+INFO 2026-04-23 15:26:51,183 log 30368 15596 "GET /admin/welcome_app/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:26:53,781 log 30368 15596 "GET /admin/welcome_app/student/add/ HTTP/1.1" 200 28421
+INFO 2026-04-23 15:26:53,880 log 30368 15596 "GET /admin/jsi18n/ HTTP/1.1" 200 8869
+INFO 2026-04-23 15:26:55,976 log 30368 15596 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:26:58,043 log 30368 15596 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:26:58,138 log 30368 15596 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:26:59,019 log 30368 15596 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:26:59,121 log 30368 15596 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:26:59,447 log 30368 15596 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:26:59,541 log 30368 15596 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:28:33,857 autoreload 34380 9704 Watching for file changes with StatReloader
+INFO 2026-04-23 15:28:51,557 autoreload 8588 16196 Watching for file changes with StatReloader
+INFO 2026-04-23 15:29:42,033 log 34380 10628 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:29:44,139 log 34380 10628 Not Found: /@vite/client
+WARNING 2026-04-23 15:29:44,139 log 34380 10628 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:29:45,367 log 34380 10628 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:29:45,578 log 34380 10628 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:29:45,607 log 34380 10628 Not Found: /@vite/client
+WARNING 2026-04-23 15:29:45,608 log 34380 10628 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:30:31,540 autoreload 39500 28936 Watching for file changes with StatReloader
+INFO 2026-04-23 15:30:51,915 autoreload 27192 35720 Watching for file changes with StatReloader
+INFO 2026-04-23 15:31:25,026 autoreload 27808 37172 Watching for file changes with StatReloader
+INFO 2026-04-23 15:31:50,325 autoreload 41536 40652 Watching for file changes with StatReloader
+INFO 2026-04-23 15:32:28,472 autoreload 32696 19912 Watching for file changes with StatReloader
+INFO 2026-04-23 15:32:58,074 autoreload 41124 41036 Watching for file changes with StatReloader
+INFO 2026-04-23 15:33:19,268 autoreload 26244 40832 Watching for file changes with StatReloader
+INFO 2026-04-23 15:33:49,489 autoreload 34812 1912 Watching for file changes with StatReloader
+INFO 2026-04-23 15:35:07,557 autoreload 31768 41912 Watching for file changes with StatReloader
+INFO 2026-04-23 15:35:10,760 autoreload 31844 23988 Watching for file changes with StatReloader
+INFO 2026-04-23 15:35:28,462 log 31768 31244 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:35:28,656 log 31768 31244 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:35:28,697 log 31768 31244 Not Found: /@vite/client
+WARNING 2026-04-23 15:35:28,697 log 31768 31244 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:35:30,037 log 31768 31244 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:35:35,791 log 31768 31244 Not Found: /@vite/client
+WARNING 2026-04-23 15:35:35,792 log 31768 31244 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:35:38,517 log 31768 31244 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:35:38,710 log 31768 31244 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:35:38,738 log 31768 31244 Not Found: /@vite/client
+WARNING 2026-04-23 15:35:38,739 log 31768 31244 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:35:39,545 log 31768 31244 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:35:39,642 log 31768 31244 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:35:39,670 log 31768 31244 Not Found: /@vite/client
+WARNING 2026-04-23 15:35:39,671 log 31768 31244 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:35:40,292 log 31768 31244 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:35:40,390 log 31768 31244 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:35:40,419 log 31768 31244 Not Found: /@vite/client
+WARNING 2026-04-23 15:35:40,419 log 31768 31244 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:38:18,158 log 31768 39796 "GET /admin/login/ HTTP/1.1" 200 4081
+INFO 2026-04-23 15:39:26,336 log 31768 24604 "GET /admin/login/?next=/admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:39:26,435 log 31768 24604 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:39:36,507 log 31768 30464 "GET /admin/login/?next=/admin/login/ HTTP/1.1" 200 4106
+INFO 2026-04-23 15:39:37,119 log 31768 30464 "GET /static/admin/css/base.css HTTP/1.1" 200 23100
+INFO 2026-04-23 15:39:37,171 log 31768 26564 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2026-04-23 15:39:37,174 log 31768 30368 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-04-23 15:39:37,196 log 31768 11300 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-04-23 15:39:37,202 log 31768 17624 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 3538
+INFO 2026-04-23 15:39:37,204 log 31768 37172 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16273
+INFO 2026-04-23 15:39:37,207 log 31768 17624 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+WARNING 2026-04-23 15:39:37,237 log 31768 17624 Not Found: /favicon.ico
+WARNING 2026-04-23 15:39:37,238 log 31768 17624 "GET /favicon.ico HTTP/1.1" 404 3626
+INFO 2026-04-23 15:39:52,956 log 31768 17624 "POST /admin/login/?next=/admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:39:53,156 log 31768 17624 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:39:53,255 log 31768 17624 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:39:58,695 log 31768 17624 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:39:58,791 log 31768 17624 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:40:00,880 log 31768 17624 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:40:00,975 log 31768 17624 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:40:01,576 log 31768 17624 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:40:01,674 log 31768 17624 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:40:02,341 log 31768 17624 "GET /students/ HTTP/1.1" 200 16796
+INFO 2026-04-23 15:40:02,469 log 31768 17624 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 15:40:02,473 log 31768 37172 "GET /api/students/?page=1 HTTP/1.1" 200 4406
+INFO 2026-04-23 15:40:04,716 log 31768 37172 "GET /checkin/ HTTP/1.1" 200 10428
+ERROR 2026-04-23 15:40:04,845 exceptions 31768 37172 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 413, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 15:40:04,850 log 31768 37172 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 15:40:04,851 log 31768 37172 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 15:40:04,960 log 31768 37172 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 2087
+INFO 2026-04-23 15:40:05,489 log 31768 37172 "GET / HTTP/1.1" 200 12930
+INFO 2026-04-23 15:40:06,475 log 31768 37172 "GET / HTTP/1.1" 200 12930
+INFO 2026-04-23 15:40:07,251 log 31768 37172 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:40:07,349 log 31768 37172 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:40:08,615 log 31768 37172 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:40:08,712 log 31768 37172 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:40:09,985 log 31768 37172 "GET / HTTP/1.1" 200 12930
+INFO 2026-04-23 15:40:10,772 log 31768 37172 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:40:10,871 log 31768 37172 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:40:11,929 log 31768 37172 "GET /admin/welcome_app/student/add/ HTTP/1.1" 200 28421
+INFO 2026-04-23 15:40:11,938 log 31768 37172 "GET /static/admin/css/forms.css HTTP/1.1" 200 8831
+INFO 2026-04-23 15:40:11,938 log 31768 26564 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2026-04-23 15:40:11,939 log 31768 30368 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9159
+INFO 2026-04-23 15:40:11,939 log 31768 30464 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19698
+INFO 2026-04-23 15:40:11,943 log 31768 30368 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2026-04-23 15:40:11,944 log 31768 30464 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2026-04-23 15:40:11,944 log 31768 26564 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2026-04-23 15:40:11,945 log 31768 37172 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2026-04-23 15:40:11,946 log 31768 11300 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2026-04-23 15:40:11,950 log 31768 26564 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2026-04-23 15:40:11,950 log 31768 30368 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11811
+INFO 2026-04-23 15:40:11,956 log 31768 30464 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2026-04-23 15:40:11,957 log 31768 37172 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2026-04-23 15:40:11,964 log 31768 37172 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 978
+INFO 2026-04-23 15:40:11,968 log 31768 37172 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 593
+INFO 2026-04-23 15:40:11,975 log 31768 37172 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 928
+INFO 2026-04-23 15:40:11,979 log 31768 37172 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2026-04-23 15:40:12,037 log 31768 17624 "GET /admin/jsi18n/ HTTP/1.1" 200 8869
+INFO 2026-04-23 15:40:12,084 log 31768 17624 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1112
+INFO 2026-04-23 15:40:12,084 log 31768 37172 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 805
+INFO 2026-04-23 15:40:14,825 log 31768 17624 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:40:16,175 log 31768 17624 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:40:16,276 log 31768 17624 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:40:24,668 log 31768 17624 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:40:24,765 log 31768 17624 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:40:26,358 log 31768 17624 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 15:40:26,457 log 31768 17624 "GET /admin/ HTTP/1.1" 200 8023
+INFO 2026-04-23 15:41:15,134 log 31768 2232 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:41:15,175 log 31768 2232 Not Found: /@vite/client
+WARNING 2026-04-23 15:41:15,176 log 31768 2232 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:41:16,326 log 31768 2232 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:41:16,355 log 31768 2232 Not Found: /@vite/client
+WARNING 2026-04-23 15:41:16,355 log 31768 2232 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:41:17,155 log 31768 2232 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:41:17,182 log 31768 2232 Not Found: /@vite/client
+WARNING 2026-04-23 15:41:17,182 log 31768 2232 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:41:17,927 log 31768 2232 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:41:17,951 log 31768 2232 Not Found: /@vite/client
+WARNING 2026-04-23 15:41:17,952 log 31768 2232 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:41:18,653 log 31768 2232 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:41:18,680 log 31768 2232 Not Found: /@vite/client
+WARNING 2026-04-23 15:41:18,680 log 31768 2232 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:41:19,323 log 31768 2232 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:41:19,357 log 31768 2232 Not Found: /@vite/client
+WARNING 2026-04-23 15:41:19,358 log 31768 2232 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:41:20,282 log 31768 2232 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:41:20,309 log 31768 2232 Not Found: /@vite/client
+WARNING 2026-04-23 15:41:20,310 log 31768 2232 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:41:20,591 log 31768 2232 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:41:20,617 log 31768 2232 Not Found: /@vite/client
+WARNING 2026-04-23 15:41:20,618 log 31768 2232 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:41:21,303 log 31768 2232 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:41:21,441 log 31768 2232 Not Found: /@vite/client
+WARNING 2026-04-23 15:41:21,442 log 31768 2232 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:43:03,834 autoreload 39092 34968 Watching for file changes with StatReloader
+INFO 2026-04-23 15:43:14,929 autoreload 18204 40692 Watching for file changes with StatReloader
+INFO 2026-04-23 15:44:10,653 autoreload 40824 15316 Watching for file changes with StatReloader
+INFO 2026-04-23 15:44:13,105 log 39092 22376 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:44:13,135 log 39092 22376 Not Found: /@vite/client
+WARNING 2026-04-23 15:44:13,136 log 39092 22376 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:44:28,049 log 39092 22376 "GET /admin/ HTTP/1.1" 200 8023
+WARNING 2026-04-23 15:44:29,041 log 39092 22376 Not Found: /@vite/client
+WARNING 2026-04-23 15:44:29,042 log 39092 22376 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 15:55:37,036 autoreload 29184 14392 Watching for file changes with StatReloader
+INFO 2026-04-23 15:56:16,132 autoreload 40120 11960 Watching for file changes with StatReloader
+INFO 2026-04-23 15:56:57,421 autoreload 38884 32812 Watching for file changes with StatReloader
+INFO 2026-04-23 15:57:57,798 autoreload 7948 32296 Watching for file changes with StatReloader
+INFO 2026-04-23 15:58:41,160 autoreload 5532 33228 Watching for file changes with StatReloader
+INFO 2026-04-23 15:59:48,105 autoreload 36928 30032 Watching for file changes with StatReloader
+INFO 2026-04-23 16:00:43,794 log 36928 35812 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-23 16:00:43,871 log 36928 35812 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4094
+INFO 2026-04-23 16:01:03,031 basehttp 36928 35812 - Broken pipe from ('127.0.0.1', 61301)
+INFO 2026-04-23 16:01:04,266 log 36928 40948 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-23 16:01:04,269 log 36928 40948 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4094
+INFO 2026-04-23 16:01:11,285 basehttp 36928 40948 - Broken pipe from ('127.0.0.1', 61140)
+INFO 2026-04-23 16:01:21,714 log 36928 21464 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-23 16:01:21,717 log 36928 21464 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4094
+INFO 2026-04-23 16:01:27,200 basehttp 36928 21464 - Broken pipe from ('127.0.0.1', 59926)
+INFO 2026-04-23 16:01:42,697 log 36928 7192 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-23 16:01:42,700 log 36928 7192 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4094
+INFO 2026-04-23 16:01:47,918 basehttp 36928 7192 - Broken pipe from ('127.0.0.1', 51896)
+INFO 2026-04-23 16:02:06,068 log 36928 41936 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-23 16:02:06,070 log 36928 41936 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4094
+INFO 2026-04-23 16:02:11,449 basehttp 36928 41936 - Broken pipe from ('127.0.0.1', 59833)
+INFO 2026-04-23 16:03:01,087 autoreload 36964 32736 Watching for file changes with StatReloader
+INFO 2026-04-23 16:04:00,626 autoreload 34104 30364 Watching for file changes with StatReloader
+INFO 2026-04-23 16:05:22,627 autoreload 34104 30364 D:\xinshen\welcome_app\frontend_views.py changed, reloading.
+INFO 2026-04-23 16:05:23,708 autoreload 22084 35880 Watching for file changes with StatReloader
+INFO 2026-04-23 16:13:31,885 autoreload 12004 39392 Watching for file changes with StatReloader
+INFO 2026-04-23 16:14:08,240 log 12004 23140 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-23 16:14:08,309 log 12004 23140 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4094
+INFO 2026-04-23 16:14:14,377 basehttp 12004 23140 - Broken pipe from ('127.0.0.1', 60555)
+INFO 2026-04-23 16:14:34,817 log 12004 30100 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-23 16:14:34,820 log 12004 30100 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4094
+INFO 2026-04-23 16:14:40,555 basehttp 12004 30100 - Broken pipe from ('127.0.0.1', 52591)
+INFO 2026-04-23 16:14:47,860 log 12004 17308 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-23 16:14:47,863 log 12004 17308 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4094
+INFO 2026-04-23 16:14:53,479 basehttp 12004 17308 - Broken pipe from ('127.0.0.1', 64734)
+INFO 2026-04-23 16:15:05,704 log 12004 36084 "GET / HTTP/1.1" 200 12930
+INFO 2026-04-23 16:15:12,837 basehttp 12004 36084 - Broken pipe from ('127.0.0.1', 54032)
+INFO 2026-04-23 16:15:57,180 autoreload 36024 4476 Watching for file changes with StatReloader
+INFO 2026-04-23 16:16:27,228 log 36024 7948 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-23 16:16:27,301 log 36024 7948 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4094
+INFO 2026-04-23 16:16:32,824 basehttp 36024 7948 - Broken pipe from ('127.0.0.1', 58876)
+INFO 2026-04-23 16:16:55,911 log 36024 12240 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-23 16:16:55,916 log 36024 32576 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4094
+INFO 2026-04-23 16:17:10,097 log 36024 40104 "GET / HTTP/1.1" 200 12930
+INFO 2026-04-23 16:20:03,623 log 36024 2844 "GET /admin/ HTTP/1.1" 302 0
+INFO 2026-04-23 16:20:03,629 log 36024 39164 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4094
+INFO 2026-04-23 16:20:23,090 log 36024 31856 "GET / HTTP/1.1" 200 12930
+INFO 2026-04-23 16:20:39,456 log 36024 16160 "GET /admin/ HTTP/1.1" 200 14731
+INFO 2026-04-23 16:20:39,876 log 36024 22684 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2026-04-23 16:20:39,895 log 36024 2568 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 3538
+INFO 2026-04-23 16:20:39,920 log 36024 16160 "GET /static/admin/css/base.css HTTP/1.1" 200 23100
+INFO 2026-04-23 16:20:39,949 log 36024 22660 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2026-04-23 16:20:39,956 log 36024 41184 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2026-04-23 16:20:39,969 log 36024 34668 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16273
+INFO 2026-04-23 16:20:40,005 log 36024 34668 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2026-04-23 16:20:40,013 log 36024 34668 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 593
+INFO 2026-04-23 16:20:40,014 log 36024 41184 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 978
+WARNING 2026-04-23 16:20:40,092 log 36024 41184 Not Found: /@vite/client
+WARNING 2026-04-23 16:20:40,093 log 36024 41184 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 16:20:43,141 log 36024 41184 "GET / HTTP/1.1" 200 12930
+WARNING 2026-04-23 16:20:43,660 log 36024 41184 Not Found: /@vite/client
+WARNING 2026-04-23 16:20:43,661 log 36024 41184 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 16:20:44,991 log 36024 23400 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 16:20:45,097 log 36024 23400 "GET /admin/ HTTP/1.1" 200 14731
+WARNING 2026-04-23 16:20:45,134 log 36024 23400 Not Found: /@vite/client
+WARNING 2026-04-23 16:20:45,135 log 36024 23400 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 16:20:47,621 log 36024 23400 "GET / HTTP/1.1" 200 12930
+WARNING 2026-04-23 16:20:47,766 log 36024 23400 Not Found: /@vite/client
+WARNING 2026-04-23 16:20:47,766 log 36024 23400 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 16:20:48,533 log 36024 23400 "GET /students/ HTTP/1.1" 200 16799
+WARNING 2026-04-23 16:20:48,583 log 36024 2844 Not Found: /@vite/client
+WARNING 2026-04-23 16:20:48,585 log 36024 2844 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 16:20:48,679 log 36024 23400 "GET /api/colleges/ HTTP/1.1" 200 932
+INFO 2026-04-23 16:20:48,687 log 36024 31144 "GET /api/students/?page=1 HTTP/1.1" 200 4406
+INFO 2026-04-23 16:20:50,134 log 36024 31144 "GET /checkin/ HTTP/1.1" 200 10428
+WARNING 2026-04-23 16:20:50,168 log 36024 23400 Not Found: /@vite/client
+WARNING 2026-04-23 16:20:50,169 log 36024 23400 "GET /@vite/client HTTP/1.1" 404 3629
+ERROR 2026-04-23 16:20:50,267 exceptions 36024 31144 Unhandled Exception: 'int' object has no attribute 'pk'
+Traceback (most recent call last):
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\xinshen\welcome_app\views.py", line 413, in get
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 585, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 728, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\serializers.py", line 552, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\新建文件夹\Lib\site-packages\rest_framework\relations.py", line 268, in to_representation
+    return value.pk
+           ^^^^^^^^
+AttributeError: 'int' object has no attribute 'pk'
+ERROR 2026-04-23 16:20:50,276 log 36024 31144 Internal Server Error: /api/dashboard/stats/
+ERROR 2026-04-23 16:20:50,277 log 36024 31144 "GET /api/dashboard/stats/ HTTP/1.1" 500 69
+INFO 2026-04-23 16:20:50,379 log 36024 31144 "GET /api/check-ins/?date_from=2026-04-23 HTTP/1.1" 200 2087
+INFO 2026-04-23 16:20:51,054 log 36024 31144 "GET / HTTP/1.1" 200 12930
+WARNING 2026-04-23 16:20:51,088 log 36024 31144 Not Found: /@vite/client
+WARNING 2026-04-23 16:20:51,089 log 36024 31144 "GET /@vite/client HTTP/1.1" 404 3629
+INFO 2026-04-23 16:20:51,746 log 36024 31144 "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2026-04-23 16:20:51,851 log 36024 31144 "GET /admin/ HTTP/1.1" 200 14731
+WARNING 2026-04-23 16:20:51,885 log 36024 31144 Not Found: /@vite/client
+WARNING 2026-04-23 16:20:51,885 log 36024 31144 "GET /@vite/client HTTP/1.1" 404 3629

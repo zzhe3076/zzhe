@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="header">
+    <text class="title">绑定学号</text>
+    <text class="subtitle">请输入您的学号和密码进行绑定</text>
+  </view>
+
+  <view class="form">
+    <view class="form-group">
+      <text class="label">学号</text>
+      <input class="input" placeholder="请输入学号" bindinput="onStudentIdInput" />
+    </view>
+    <view class="form-group">
+      <text class="label">密码</text>
+      <input class="input" password placeholder="请输入密码" bindinput="onPasswordInput" />
+    </view>
+    <button class="btn-primary" bindtap="handleBind">立即绑定</button>
+  </view>
+</view>

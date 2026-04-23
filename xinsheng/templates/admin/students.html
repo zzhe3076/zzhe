@@ -1,0 +1,330 @@
+{% extends "base.html" %}
+
+{% block title %}学生管理 - 管理后台{% endblock %}
+
+{% block nav_items %}
+<li class="nav-item">
+    <a class="nav-link" href="/">返回首页</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="/admin/">管理后台</a>
+</li>
+{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-md-6">
+        <h4><i class="bi bi-people"></i> 学生管理</h4>
+    </div>
+    <div class="col-md-6 text-end">
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addStudentModal">
+            <i class="bi bi-plus-circle"></i> 添加学生
+        </button>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="row g-3">
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="searchName" placeholder="姓名/学号">
+                    </div>
+                    <div class="col-md-3">
+                        <select class="form-select" id="filterStatus">
+                            <option value="">全部状态</option>
+                            <option value="pending">待报到</option>
+                            <option value="checked_in">已报到</option>
+                            <option value="cancelled">已取消</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <select class="form-select" id="filterCollege">
+                            <option value="">全部学院</option>
+                            {% for college in colleges %}
+                            <option value="{{ college.id }}">{{ college.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <button class="btn btn-primary w-100" onclick="loadStudents()">
+                            <i class="bi bi-search"></i> 搜索
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>学号</th>
+                            <th>姓名</th>
+                            <th>性别</th>
+                            <th>专业</th>
+                            <th>联系电话</th>
+                            <th>生源地</th>
+                            <th>报到状态</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody id="studentTable">
+                        <tr><td colspan="8" class="text-center">加载中...</td></tr>
+                    </tbody>
+                </table>
+                <nav>
+                    <ul class="pagination justify-content-center" id="pagination"></ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="addStudentModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">添加学生</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form id="addStudentForm">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">学号 *</label>
+                            <input type="text" class="form-control" name="student_id" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">姓名 *</label>
+                            <input type="text" class="form-control" name="name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">性别 *</label>
+                            <select class="form-select" name="gender" required>
+                                <option value="">请选择</option>
+                                <option value="male">男</option>
+                                <option value="female">女</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">身份证号 *</label>
+                            <input type="text" class="form-control" name="id_card" required maxlength="18">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">联系电话 *</label>
+                            <input type="tel" class="form-control" name="phone" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">专业 *</label>
+                            <select class="form-select" name="major" required>
+                                <option value="">请选择专业</option>
+                                {% for major in majors %}
+                                <option value="{{ major.id }}">{{ major.college.name }} - {{ major.name }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">班级</label>
+                            <input type="text" class="form-control" name="class_name">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">登录密码 *</label>
+                            <input type="password" class="form-control" name="password" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">生源省份 *</label>
+                            <input type="text" class="form-control" name="origin_province" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">生源城市</label>
+                            <input type="text" class="form-control" name="origin_city">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">毕业高中</label>
+                        <input type="text" class="form-control" name="high_school">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary" onclick="addStudent()">保存</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+function getCookie(name) {
+    let cookieValue = null;
+    if (document.cookie && document.cookie !== '') {
+        const cookies = document.cookie.split(';');
+        for (let i = 0; i < cookies.length; i++) {
+            const cookie = cookies[i].trim();
+            if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                break;
+            }
+        }
+    }
+    return cookieValue;
+}
+
+const API_BASE = '/api';
+const csrftoken = getCookie('csrftoken');
+let currentPage = 1;
+
+async function loadColleges() {
+    try {
+        const response = await fetch(`${API_BASE}/colleges/`);
+        const data = await response.json();
+        const select = document.getElementById('filterCollege');
+        for (const college of data.results || data) {
+            const option = document.createElement('option');
+            option.value = college.id;
+            option.textContent = college.name;
+            select.appendChild(option);
+        }
+    } catch (error) {
+        console.error('Load colleges error:', error);
+    }
+}
+
+async function loadStudents(page = 1) {
+    currentPage = page;
+    const name = document.getElementById('searchName').value;
+    const status = document.getElementById('filterStatus').value;
+    const collegeId = document.getElementById('filterCollege').value;
+    
+    let url = `${API_BASE}/students/?page=${page}`;
+    if (name) url += `&search=${name}`;
+    if (status) url += `&status=${status}`;
+    if (collegeId) url += `&college_id=${collegeId}`;
+    
+    try {
+        const response = await fetch(url);
+        const data = await response.json();
+        const students = data.results || data;
+        
+        const tbody = document.getElementById('studentTable');
+        if (students.length === 0) {
+            tbody.innerHTML = '<tr><td colspan="8" class="text-center text-muted">暂无数据</td></tr>';
+            return;
+        }
+        
+        tbody.innerHTML = students.map(s => `
+            <tr>
+                <td>${s.student_id}</td>
+                <td>${s.name}</td>
+                <td>${s.gender_display}</td>
+                <td>${s.major_name}</td>
+                <td>${s.phone}</td>
+                <td>${s.origin_province}</td>
+                <td><span class="badge bg-${s.status === 'checked_in' ? 'success' : 'warning'}">${s.status_display}</span></td>
+                <td>
+                    <button class="btn btn-sm btn-info" onclick="viewStudent(${s.id})">查看</button>
+                    <button class="btn btn-sm btn-danger" onclick="deleteStudent(${s.id})">删除</button>
+                </td>
+            </tr>
+        `).join('');
+        
+        renderPagination(data);
+    } catch (error) {
+        console.error('Load students error:', error);
+    }
+}
+
+function renderPagination(data) {
+    const pagination = document.getElementById('pagination');
+    if (!data.next && !data.previous) return;
+    
+    let html = '';
+    const totalPages = Math.ceil(data.count / 10);
+    
+    if (data.previous) {
+        html += `<li class="page-item"><a class="page-link" href="#" onclick="loadStudents(${currentPage - 1})">上一页</a></li>`;
+    }
+    
+    for (let i = 1; i <= totalPages; i++) {
+        html += `<li class="page-item ${i === currentPage ? 'active' : ''}"><a class="page-link" href="#" onclick="loadStudents(${i})">${i}</a></li>`;
+    }
+    
+    if (data.next) {
+        html += `<li class="page-item"><a class="page-link" href="#" onclick="loadStudents(${currentPage + 1})">下一页</a></li>`;
+    }
+    
+    pagination.innerHTML = html;
+}
+
+async function addStudent() {
+    const form = document.getElementById('addStudentForm');
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData);
+    
+    try {
+        const response = await fetch(`${API_BASE}/students/`, {
+            method: 'POST',
+            headers: { 
+                'Content-Type': 'application/json',
+                'X-CSRFToken': csrftoken
+            },
+            body: JSON.stringify(data)
+        });
+        
+        if (response.ok) {
+            alert('添加成功');
+            bootstrap.Modal.getInstance(document.getElementById('addStudentModal')).hide();
+            form.reset();
+            loadStudents();
+        } else {
+            const error = await response.json();
+            alert('添加失败: ' + JSON.stringify(error));
+        }
+    } catch (error) {
+        console.error('Add student error:', error);
+        alert('添加失败');
+    }
+}
+
+function viewStudent(id) {
+    window.location.href = `/admin/students/${id}/`;
+}
+
+function deleteStudent(id) {
+    if (confirm('确定要删除该学生吗？')) {
+        fetch(`${API_BASE}/students/${id}/`, { 
+            method: 'DELETE',
+            headers: { 'X-CSRFToken': csrftoken }
+        })
+            .then(() => {
+                alert('删除成功');
+                loadStudents();
+            })
+            .catch(err => {
+                console.error('Delete error:', err);
+                alert('删除失败');
+            });
+    }
+}
+
+loadColleges();
+loadStudents();
+</script>
+{% endblock %}
