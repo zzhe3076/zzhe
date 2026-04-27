@@ -1,25 +1,32 @@
 import subprocess
-import time
-import os
+import sys
 
-os.chdir(r'd:\xinshen')
+script = """
+import os
+import django
+
+os.chdir(r'd:\\xinshen')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'welcome_assistant.settings')
+django.setup()
+
+from django.core.management import execute_from_command_line
+execute_from_command_line(['manage.py', 'runserver', '8001', '--noreload'])
+"""
 
 proc = subprocess.Popen(
-    ['python', 'manage.py', 'runserver', '8000'],
+    [sys.executable, '-c', script],
     stdout=subprocess.PIPE,
     stderr=subprocess.STDOUT,
-    text=True
+    cwd=r'd:\xinshen'
 )
 
-print(f"Started process with PID: {proc.pid}")
+print(f"Server started with PID: {proc.pid}")
 
+import time
 time.sleep(3)
 
 if proc.poll() is None:
     print("Server is running!")
-    print("Waiting for requests...")
-    time.sleep(60)
 else:
-    print("Server exited with code:", proc.returncode)
-    output = proc.stdout.read()
-    print("Output:", output)
+    output = proc.stdout.read().decode('utf-8', errors='ignore')
+    print(f"Server exited: {output}")
