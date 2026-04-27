@@ -6,7 +6,7 @@
 graph TB
     subgraph Client["用户接入层"]
         direction TB
-        WX["微信小程序<br/>📱 新生端"]
+        H5["学生Web端(H5)<br/>📱 新生端"]
         WEB["Web管理端<br/>💻 管理员"]
     end
 
