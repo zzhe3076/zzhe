@@ -8,6 +8,7 @@ urlpatterns = [
     path('api/', include('welcome_app.urls')),
     path('api/', include('welcome_app.wechat_urls')),
     path('', include('welcome_app.frontend_urls')),
+    path('', include('welcome_app.student_urls')),
 ]
 
 if settings.DEBUG:

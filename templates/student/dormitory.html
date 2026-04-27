@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宿舍查询 - 新生报到系统</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <style>
+        body {
+            background: #f5f7fa;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 0 0 30px 30px;
+        }
+        .back-btn {
+            color: white;
+            text-decoration: none;
+        }
+        .info-card {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: -30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .dormitory-icon {
+            font-size: 60px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .info-item {
+            padding: 12px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .info-item:last-child {
+            border-bottom: none;
+        }
+        .info-label {
+            color: #666;
+            font-size: 14px;
+        }
+        .info-value {
+            color: #333;
+            font-weight: 500;
+        }
+        .no-data {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .no-data-icon {
+            font-size: 64px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="d-flex justify-content-between align-items-center">
+            <a href="{% url 'student-dashboard' %}" class="back-btn">
+                <i class="bi bi-arrow-left"></i> 返回
+            </a>
+            <h5 class="mb-0">宿舍查询</h5>
+            <div style="width: 50px;"></div>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        {% if error %}
+        <div class="info-card">
+            <div class="no-data">
+                <div class="no-data-icon">🏠</div>
+                <h5>{{ error }}</h5>
+                <p class="text-muted">请等待学校分配宿舍后再查询</p>
+            </div>
+        </div>
+        {% elif assignment %}
+        <div class="info-card">
+            <div class="dormitory-icon">🛏️</div>
+            
+            <div class="info-item d-flex justify-content-between">
+                <span class="info-label">楼栋</span>
+                <span class="info-value">{{ assignment.room.building.name }}</span>
+            </div>
+            <div class="info-item d-flex justify-content-between">
+                <span class="info-label">房间号</span>
+                <span class="info-value">{{ assignment.room.room_number }}</span>
+            </div>
+            <div class="info-item d-flex justify-content-between">
+                <span class="info-label">床位号</span>
+                <span class="info-value">{{ assignment.bed_number }}号床</span>
+            </div>
+            <div class="info-item d-flex justify-content-between">
+                <span class="info-label">楼层</span>
+                <span class="info-value">{{ assignment.room.floor }}楼</span>
+            </div>
+            <div class="info-item d-flex justify-content-between">
+                <span class="info-label">房间类型</span>
+                <span class="info-value">
+                    {% if assignment.room.room_type == 'standard' %}标准间{% else %}升级间{% endif %}
+                </span>
+            </div>
+            <div class="info-item d-flex justify-content-between">
+                <span class="info-label">住宿费</span>
+                <span class="info-value text-primary">¥{{ assignment.room.price }}/学年</span>
+            </div>
+            <div class="info-item d-flex justify-content-between">
+                <span class="info-label">当前入住</span>
+                <span class="info-value">{{ assignment.room.current_occupancy }}/{{ assignment.room.capacity }}人</span>
+            </div>
+            <div class="info-item d-flex justify-content-between">
+                <span class="info-label">分配时间</span>
+                <span class="info-value">{{ assignment.assignment_date|date:"Y-m-d" }}</span>
+            </div>
+            <div class="info-item d-flex justify-content-between">
+                <span class="info-label">状态</span>
+                <span class="badge bg-success">
+                    {% if assignment.status == 'checked_in' %}已入住{% else %}已分配{% endif %}
+                </span>
+            </div>
+        </div>
+        
+        <div class="alert alert-info mt-3">
+            <i class="bi bi-info-circle"></i>
+            请按时报到入住，如有疑问请联系辅导员
+        </div>
+        {% endif %}
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

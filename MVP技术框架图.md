@@ -28,7 +28,7 @@ graph TB
             PAY_API["缴费管理API"]
             ANN_API["公告通知API"]
             FAQ_API["FAQ知识库API"]
-            WX_API["微信小程序API"]
+            STUDENT_API["学生端API"]
         end
         
         subgraph Auth["认证模块"]
@@ -77,10 +77,11 @@ graph TB
             P2["报到页面<br/>checkin.html"]
             P3["学生管理<br/>students.html"]
             P4["Admin后台<br/>Django Admin"]
+            P5["学生端H5<br/>移动端页面"]
         end
     end
 
-    WX --> NGINX
+    H5 --> NGINX
     WEB --> NGINX
     NGINX --> DJANGO
     
@@ -113,7 +114,7 @@ graph LR
         F1["Bootstrap 5"]
         F2["JavaScript"]
         F3["HTML5/CSS3"]
-        F4["微信小程序<br/>WXML/WXSS/JS"]
+        F4["移动端H5<br/>响应式设计"]
     end
 
     subgraph Backend["后端技术栈"]
@@ -147,7 +148,7 @@ graph LR
 
 ```mermaid
 sequenceDiagram
-    participant 新生 as 新生(微信小程序)
+    participant 新生 as 新生(Web H5)
     participant 管理员 as 管理员(Web后台)
     participant Nginx as Nginx网关
     participant Django as Django+DRF
@@ -162,7 +163,7 @@ sequenceDiagram
     Django-->>Nginx: 5. 返回页面
     Nginx-->>新生: 6. 显示报到页面
     
-    新生->>Nginx: 7. 提交报到(扫码/人脸)
+    新生->>Nginx: 7. 提交报到
     Nginx->>Django: 8. 转发请求
     Django->>DB: 9. 验证并更新报到状态
     DB-->>Django: 10. 返回结果
@@ -187,7 +188,7 @@ sequenceDiagram
 graph TB
     subgraph System["大学生新生报到系统"]
         
-        subgraph Student["学生管理模块"]
+        subgraph StudentMgmt["学生管理模块"]
             S1["信息录入"]
             S2["信息查询"]
             S3["信息修改"]
@@ -230,6 +231,14 @@ graph TB
             F1["知识库"]
             F2["常见问题"]
             F3["智能问答"]
+        end
+        
+        subgraph StudentPortal["学生端模块"]
+            SP1["登录认证"]
+            SP2["报到查询"]
+            SP3["宿舍查询"]
+            SP4["缴费查询"]
+            SP5["公告查看"]
         end
         
     end
@@ -415,25 +424,20 @@ graph TB
         
     end
     
-    subgraph WeChatAPI["微信小程序API"]
+    subgraph StudentAPI2["学生端Web API"]
         
-        subgraph WXAuth["认证模块"]
-            WA1["POST /api/wechat/login/"]
-            WA2["POST /api/wechat/bind/"]
-            WA3["POST /api/wechat/logout/"]
+        subgraph StuAuth["认证模块"]
+            WA1["POST /api/student/login/"]
+            WA2["POST /api/student/logout/"]
         end
         
-        subgraph WXCheckIn["报到模块"]
-            WC1["GET /api/wechat/dashboard/"]
-            WC2["POST /api/wechat/generate_code/"]
-            WC3["POST /api/wechat/verify_checkin/"]
-        end
-        
-        subgraph WXInfo["信息模块"]
-            WI1["GET /api/wechat/dormitory/"]
-            WI2["GET /api/wechat/payments/"]
-            WI3["GET /api/wechat/announcements/"]
-            WI4["GET /api/wechat/faqs/"]
+        subgraph StuInfo["信息模块"]
+            WC1["GET /api/student/dashboard/"]
+            WC2["GET /api/student/checkin/"]
+            WI1["GET /api/student/dormitory/"]
+            WI2["GET /api/student/payments/"]
+            WI3["GET /api/student/announcements/"]
+            WI4["GET /api/student/faqs/"]
         end
         
     end
